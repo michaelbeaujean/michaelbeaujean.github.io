@@ -29,13 +29,13 @@ include('http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js', funct
       $("#portfolio").hide();
 
       $("#about-me-link").on("click", function(){
-        $("#portfolio").fadeOut(1000);
-        $("#about-me").hide(0).delay(1000).fadeIn(1000);
+        $("#portfolio").fadeOut(500);
+        $("#about-me").hide(0).delay(500).fadeIn(1000);
       });
 
       $("#portfolio-link").on("click", function(){
-        $("#about-me").fadeOut(1000);
-        $("#portfolio").hide(0).delay(1000).fadeIn(1000);
+        $("#about-me").fadeOut(500);
+        $("#portfolio").hide(0).delay(500).fadeIn(1000);
       });
 
     });
