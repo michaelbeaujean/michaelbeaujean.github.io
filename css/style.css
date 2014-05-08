@@ -55,6 +55,10 @@ body {
   left: 30px;
 }
 
+#contact-me img {
+  padding: 10px;
+}
+
 #portfolio {
   background-color: D5DCE5;
   height: 300px;
