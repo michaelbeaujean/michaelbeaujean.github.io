@@ -40,7 +40,7 @@ body {
 }
 
 #about-me {
-  background-color: D5DCE5;
+  background-color: F0F0F5;
   height: 300px;
   width: 600px;
   color: black;
@@ -55,9 +55,9 @@ body {
 }
 
 #portfolio {
-  background-color: D5DCE5;
+  background-color: F0F0F5;
   height: 300px;
-  width: 600px;
+  width: 1050px;
   color: black;
   margin: 0 auto;
   overflow-y: auto;
@@ -66,4 +66,10 @@ body {
 
 #portfolio a {
   color: black;
+}
+
+#portfolio div {
+  width: 400px;
+  padding: 10px;
+  display: inline-block;
 }
