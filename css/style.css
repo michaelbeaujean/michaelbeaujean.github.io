@@ -42,7 +42,7 @@ body {
 #about-me {
   background-color: D5DCE5;
   height: 300px;
-  width: 500px;
+  width: 600px;
   color: black;
   margin: 0 auto;
   padding: 10px;
@@ -54,14 +54,10 @@ body {
   position: relative;
 }
 
-/*#contact-me img {
-  padding: 10px;
-}*/
-
 #portfolio {
   background-color: D5DCE5;
   height: 300px;
-  width: 500px;
+  width: 600px;
   color: black;
   margin: 0 auto;
   overflow-y: auto;
