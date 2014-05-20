@@ -49,16 +49,14 @@ body {
 }
 
 #contact-me {
+  padding: 10px;
   text-align: center;
-  position: absolute;
-  bottom: 30px;
-  right: 30px;
-  left: 30px;
+  position: relative;
 }
 
-#contact-me img {
+/*#contact-me img {
   padding: 10px;
-}
+}*/
 
 #portfolio {
   background-color: D5DCE5;

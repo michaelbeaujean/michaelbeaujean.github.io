@@ -30,11 +30,13 @@ $(document).ready(function() {
 
   $("#about-me-link").on("click", function(){
     $("#portfolio").fadeOut(500);
+    $("#contact-me").animate({'margin-bottom': '50px'}, 2000);
     $("#about-me").hide(0).delay(500).fadeIn(1000);
   });
 
   $("#portfolio-link").on("click", function(){
     $("#about-me").fadeOut(500);
+    $("#contact-me").animate({'margin-bottom': '50px'}, 2000);
     $("#portfolio").hide(0).delay(500).fadeIn(1000);
   });
 
