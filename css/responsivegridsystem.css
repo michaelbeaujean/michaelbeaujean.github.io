@@ -812,6 +812,7 @@ p {
 -moz-hyphens : auto; }
 
 #navigation {
+	background-color: #EBEBEB;
 	text-align: right;
 	padding: 15px;
 }
