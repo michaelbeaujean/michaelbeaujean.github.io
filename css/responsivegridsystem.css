@@ -381,7 +381,6 @@ background-color : #ccc; }
 
 	#headcontainer {
 		width: 100%;
-		background: url('img/header.jpg') no-repeat center;
 	}
 
 		header {
@@ -816,8 +815,6 @@ p {
 	text-align: right;
 	padding: 15px;
 }
-
-
 
 #about-me div {
 	padding: 10px;
