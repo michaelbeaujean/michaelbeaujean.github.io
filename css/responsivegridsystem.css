@@ -841,6 +841,10 @@ p {
 	height: 555px;
 }
 
+#email-link {
+	cursor: pointer;
+}
+
 #email-form a {
 	opacity: 0;
 }
