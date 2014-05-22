@@ -840,3 +840,7 @@ p {
 #message-form {
 	height: 555px;
 }
+
+#email-form a {
+	opacity: 0;
+}
