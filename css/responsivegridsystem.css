@@ -818,6 +818,7 @@ p {
 
 #about-me div {
 	padding: 10px;
+	box-shadow: 5px 5px 5px #888888;
 }
 
 #contact {
