@@ -812,8 +812,14 @@ p {
 
 #navigation {
 	background-color: #EBEBEB;
+	opacity: 0.8;
+	padding: 10px;
+	position: fixed;
+	z-index: 10;
+	top: 0;
+	right: 0;
+	width: 100%;
 	text-align: right;
-	padding: 15px;
 }
 
 #about-me div {
