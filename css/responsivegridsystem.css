@@ -822,6 +822,10 @@ p {
 	text-align: right;
 }
 
+#navigation a {
+	padding-right: 10px;
+}
+
 #about-me div {
 	padding: 10px;
 	box-shadow: 5px 5px 5px #888888;
