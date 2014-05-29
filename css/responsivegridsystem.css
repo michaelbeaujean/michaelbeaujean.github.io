@@ -826,6 +826,11 @@ p {
 	padding-right: 20px;
 }
 
+#navigation a:hover {
+	color: #7e0606;
+	text-decoration: underline;
+}
+
 #about-me div {
 	padding: 10px;
 	box-shadow: 5px 5px 5px #888888;
