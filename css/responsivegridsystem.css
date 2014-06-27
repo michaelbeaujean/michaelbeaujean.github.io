@@ -28,7 +28,7 @@ letter-spacing: -1px;
 
 h1 {
 font-family:  LeagueGothicRegular, 'lucida sans unicode', 'lucida grande', 'Trebuchet MS', verdana, arial, helvetica, helve, sans-serif;
-color: #000;
+color: white;
 margin-bottom : 0.2em;
 font-size : 6em; /* 96 / 16 */
 line-height : 1.4;
@@ -36,7 +36,7 @@ line-height : 1.4;
 
 
 h2 {
-color: #222;
+color: white;
 margin-bottom : .5em;
 margin-top : .5em;
 font-size : 2.75em; /* 40 / 16 */
@@ -380,7 +380,14 @@ background-color : #ccc; }
 }
 
 	#headcontainer {
+		background: url(images/work-desk.jpg);
+		background-attachment: fixed;
+		max-width: none;
+		z-index: -1;
+		height: 810px;
 		width: 100%;
+		left: 0px;
+		top: -154.3125px;
 	}
 
 		header {
@@ -391,11 +398,8 @@ background-color : #ccc; }
 			margin: 0 auto;
 			padding: 130px 0px 10px 0px;
 			position: relative;
-			color: #000;
 			text-align: center;
 		}
-
-
 
 
 	#maincontentcontainer {
