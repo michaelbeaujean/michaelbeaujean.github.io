@@ -5,7 +5,7 @@
 body {
 margin : 0 auto;
 padding : 0;
-font : 100%/1.4 'lucida sans unicode', 'lucida grande', 'Trebuchet MS', verdana, arial, helvetica, helve, sans-serif;
+font-family: Avenir, sans-serif;
 color : #000;
 text-align: center;
 }
@@ -14,20 +14,20 @@ button,
 input,
 select,
 textarea {
-font-family : 'lucida sans unicode', 'lucida grande', 'Trebuchet MS', verdana, arial, helvetica, helve, sans-serif;
+font-family: Avenir, sans-serif;
 color : #333; }
 
 /*  HEADINGS  ============================================================================= */
 
 h1, h2, h3, h4, h5, h6 {
-font-family:  MuseoSlab300, 'lucida sans unicode', 'lucida grande', 'Trebuchet MS', verdana, arial, helvetica, helve, sans-serif;
+font-family: Avenir, sans-serif;
 font-weight : normal;
 margin-top: 10px;
 letter-spacing: -1px;
 }
 
 h1 {
-font-family:  LeagueGothicRegular, 'lucida sans unicode', 'lucida grande', 'Trebuchet MS', verdana, arial, helvetica, helve, sans-serif;
+font-family: Avenir, sans-serif;
 color: white;
 margin-bottom : 0.2em;
 font-size : 6em; /* 96 / 16 */
@@ -81,7 +81,7 @@ hyphens : auto;  }
 
 
 p.introtext {
-font-family:  MuseoSlab100, 'lucida sans unicode', 'lucida grande', 'Trebuchet MS', verdana, arial, helvetica, helve, sans-serif;
+font-family:  MuseoSlab100, Avenir, sans-serif;
 font-size : 2.5em; /* 40 / 16 */
 color: #333;
 line-height: 1.4em;
@@ -91,7 +91,7 @@ margin-bottom: 0.5em;
 
 
 p.handwritten {
-font-family:  HandSean, 'lucida sans unicode', 'lucida grande', 'Trebuchet MS', verdana, arial, helvetica, helve, sans-serif;
+font-family:  HandSean, Avenir, sans-serif;
 font-size: 1.375em; /* 24 / 16 */
 line-height: 1.8em;
 margin-bottom: 0.3em;
@@ -104,7 +104,7 @@ text-align: center;
 
 
 .and {
-font-family: GoudyBookletter1911Regular, Georgia, Times New Roman, sans-serif;
+font-family: Avenir, sans-serif;
 font-size: 1.5em; /* 24 / 16 */
 }
 
