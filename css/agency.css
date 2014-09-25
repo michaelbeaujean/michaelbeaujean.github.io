@@ -334,6 +334,7 @@ section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
+    letter-spacing: 2px;
 }
 
 section h3.section-subheading {
@@ -410,6 +411,7 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-caption h4 {
     margin: 5;
     text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 #portfolio .portfolio-item .portfolio-caption p {
@@ -438,7 +440,6 @@ section h3.section-subheading {
 
 .about-me img {
     margin: 0 auto;
-    border: 7px solid #fff;
 }
 
 .about-me h4 {
