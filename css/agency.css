@@ -320,6 +320,12 @@ header .intro-text .intro-heading {
     }
 }
 
+@media(max-width:325px) {
+    header .intro-text .intro-heading {
+        font-size: 45px;
+    }
+}
+
 section {
     padding: 100px 0;
 }
