@@ -678,3 +678,9 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #fed136;
 }
+
+@media(max-width: 376px) {
+    #portfolio .portfolio-item .portfolio-caption {
+        height: 325px;
+    }
+}
