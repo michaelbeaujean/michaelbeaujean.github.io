@@ -320,9 +320,24 @@ header .intro-text .intro-heading {
     }
 }
 
+@media(max-width: 470px) {
+    .email-address {
+        font-size: 16pt;
+    }
+}
+
+@media(max-width: 410px) {
+    .email-address {
+        font-size: 14pt;
+    }
+}
+
 @media(max-width:325px) {
     header .intro-text .intro-heading {
         font-size: 45px;
+    }
+    .email-address {
+        font-size: 12pt;
     }
 }
 
