@@ -421,7 +421,7 @@ section h3.section-subheading {
     max-width: 400px;
     text-align: center;
     background-color: #fff;
-    height: 285px;
+    height: 325px;
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
@@ -679,10 +679,4 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #fed136;
-}
-
-@media(max-width: 376px) {
-    #portfolio .portfolio-item .portfolio-caption {
-        height: 325px;
-    }
 }
