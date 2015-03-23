@@ -274,7 +274,11 @@ header {
     -o-background-size: cover;
     width: 100%;
 }
-
+@media screen and (max-width: 767px){
+    header {
+        background-attachment: scroll;
+    }
+}
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
