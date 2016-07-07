@@ -441,6 +441,10 @@ section h3.section-subheading {
     font-style: italic;
 }
 
+#portfolio .portfolio-item img {
+    border: 1px solid #dedede;
+}
+
 #portfolio * {
     z-index: 2;
 }
