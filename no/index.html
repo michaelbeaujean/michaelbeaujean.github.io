@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-	<title>Animation Example #1</title>
+	<title>no</title>
 	<style>
 		body {
 			background: url('no.png') repeat;
@@ -18,15 +18,12 @@
 			-moz-transform: translateY(-50%);
 			-o-transform: translateY(-50%);
 			transform: translateY(-50%);
-/*			-webkit-transform: scale(0.2,0.2);
-			-moz-transform: scale(0.2,0.2);
-			-o-transform: scale(0.2,0.2);
-			transform: scale(0.2,0.2);*/
-
+			-webkit-animation: no 60s ease-in;
+			-moz-animation: no 60s ease-in;
+			-o-animation: no 60s ease-in;
 			animation: no 60s ease-in;
 		}
-
-		@keyframes no {
+		@-webkit-keyframes no {
 			0% {
 				transform: scale(1,1);				
 			}
@@ -34,6 +31,32 @@
 				transform: scale(100,100);
 			}
 		}
+
+		@-moz-keyframes no {
+			0% {
+				transform: scale(1,1);				
+			}
+			100% {
+				transform: scale(100,100);
+			}
+		}
+
+		@-o-keyframes no {
+			0% {
+				transform: scale(1,1);				
+			}
+			100% {
+				transform: scale(100,100);
+			}
+		}
+		@keyframes no {
+			0% {
+				transform: scale(1,1);				
+			}
+			100% {
+				transform: scale(100,100);
+			}
+		}						
 	</style>
 </head>
 <body>
