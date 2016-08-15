@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+	<title>Animation Example #1</title>
+	<style>
+		body {
+			background: url('no.png') repeat;
+			background-size: 20px 20px;
+		}
+		.no {
+			position: absolute;
+			top: 50%;
+			right: 0;
+			left: 0;
+			margin: 0 auto;
+			width: 20px;
+			height: auto;
+			-webkit-transform: translateY(-50%);
+			-moz-transform: translateY(-50%);
+			-o-transform: translateY(-50%);
+			transform: translateY(-50%);
+/*			-webkit-transform: scale(0.2,0.2);
+			-moz-transform: scale(0.2,0.2);
+			-o-transform: scale(0.2,0.2);
+			transform: scale(0.2,0.2);*/
+
+			animation: no 60s ease-in;
+		}
+
+		@keyframes no {
+			0% {
+				transform: scale(1,1);				
+			}
+			100% {
+				transform: scale(100,100);
+			}
+		}
+	</style>
+</head>
+<body>
+
+	<audio controls="controls" autoplay="autoplay" loop="true" style="opacity:0;">
+	   <source src="no.wav" type="audio/mpeg">
+	   Your browser does not support the audio element.
+	</audio>
+
+	<img src="no.png" class="no">
+
+
+</body>
