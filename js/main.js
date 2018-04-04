@@ -141,19 +141,27 @@
 
                         e.preventDefault();
 
-                        var options = {
-                            index: i,
-                            showHideOpacity: true
-                        }
+                        if ( $(e.target).hasClass('item-folio__project-link') ||
+                            $(e.target).parent().hasClass('item-folio__project-link') ) {
 
-                        // Photoswipe Link Button
-                        var $projectLink = $(this).find('.item-folio__project-link').attr('href');
+                            window.location = $(e.target).data('link');
 
-                        $('#js-pswp__button--link').attr('href', $projectLink);                    
+                        } else {
+
+                            var options = {
+                                index: i,
+                                showHideOpacity: true
+                            }
+
+                            // Photoswipe Link Button
+                            var $projectLink = $(this).find('.item-folio__project-link').attr('href');
+
+                            $('#js-pswp__button--link').attr('href', $projectLink);                    
 
                             // initialize PhotoSwipe
                             var lightBox = new PhotoSwipe($pswp, PhotoSwipeUI_Default, items, options);
-                            lightBox.init();
+                            lightBox.init();                            
+                        }
                     }
                 });
 
