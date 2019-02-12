@@ -12,14 +12,19 @@ class Intro extends Component {
   render() {
     return (
       <div>
-        <h1>Michael Beaujean is a web developer based in New York City.</h1>
+        <h1><span className="highlight">Michael Beaujean</span> is a web developer <span className="break">based in New York City 💻 🗽</span></h1>
         <style jsx>{`
           h1 {
-            position: absolute;
-            top: 30vh;
-            text-transform: lowercase;
-            font-family: 'Fjalla One', sans-serif;
-            font-size: 18px;
+            font-size: 32px;
+            font-weight: 300;
+
+            .highlight {
+              color: var(--accent);
+            }
+
+            .break {
+              display: block;
+            }
           }
         `}</style>
       </div>

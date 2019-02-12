@@ -1,0 +1,30 @@
+:root {
+  --black: #0d0900;
+  --white: #ffffff;
+  --accent: #f15d4a;
+  --fontSansSerif: 'Montserrat', Arial, Helvetica, sans-serif;
+  --fontSerif: 'Playfair Display', Times, serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+body {
+  background: var(--white);
+  color: var(--black);
+}
+
+a {
+  color: var(--black);
+  text-decoration: none;
+}

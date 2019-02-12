@@ -1,52 +1,68 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
-class Nav extends Component {
-  constructor() {
-    super();
+import css from 'styled-jsx/css'
 
-    this.state = {
-      title: ""
-    };
+const linkStyles = css.resolve`
+  a {
+    color: var(--black);
+    text-decoration: none;
   }
+`;
 
-  render() {
-    return (
-      <div>
-        <nav className="nav">
-          <ul className="nav__social">
-            <li><a href="#">linkedin</a></li>
-            <li><a href="#">github</a></li>
-            <li><a href="#">instagram</a></li>
-          </ul>
-          <ul className="nav__menu">
-            <li><Link to='/'>home</Link></li>
-            <li><Link to='/work'>work</Link></li>
-            <li><Link to='/about'>about</Link></li>
-            <li><a href="mailto:michael@beaujean.io" className="nav__link--email">contact</a></li>
-          </ul>
-        </nav>
-        <style jsx>{`
-            .nav {
-              flex-direction: column;
+const Nav = () => {
+  return (
+    <div>
+      <nav className="nav">
+        <ul className="nav__menu">
+          <li><Link to="/">home</Link></li>
+          <li><Link to="/work">work</Link></li>
+          <li><Link to="/about">about</Link></li>
+          <li><a href="mailto:michael@beaujean.io" className="nav__link--email">email</a></li>
+        </ul>
+        <ul className="nav__social">
+          <li><a href="#">linkedin</a></li>
+          <li><a href="#">github</a></li>
+          <li><a href="#">instagram</a></li>
+        </ul>
+      </nav>
+      <style jsx>{`
+          .nav {
+            text-align: right;
+
+            &__social,
+            &__menu {
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
               position: absolute;
-              bottom: 10vh;
-              text-align: right;
-              font-family: 'Cantarell', sans-serif;
+              padding: 0;
+              margin: 0 -15px;
+              list-style-type: none;
 
-              &__social,
-              &__menu {
-                list-style-type: none;
-              }
-
-              &__link--email {
-                color: red;
+              li {
+                margin: 0 15px;
               }
             }
-          `}</style>
-      </div>
-    );
-  }
+
+            &__menu {
+              top: 0;
+              right: 0;
+            }
+
+            &__social {
+              right: -80px;
+              bottom: 120px;
+              transform: rotate(90deg);
+            }
+
+            &__link--email {
+              color: red;
+            }
+          }
+        `}</style>
+    </div>
+  );
 }
 
 export default Nav;
