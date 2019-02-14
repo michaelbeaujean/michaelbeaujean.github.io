@@ -1,4 +1,4 @@
-/* =================================================================== 
+pswp__caption__center/* =================================================================== 
  *
  *  Glint v1.0 Vendor/Third Party CSS 
  *  11-20-2017
@@ -1659,6 +1659,14 @@ a.pswp__share--download:hover {
     padding: 10px;
     line-height: 20px;
     color: rgba(255, 255, 255, 0.5);
+}
+
+.pswp__caption__center h4 a {
+    color: white;
+}
+
+.pswp__caption__center h4 a:hover {
+    color: #39b54a;
 }
 
 .pswp__caption--empty {
