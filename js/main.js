@@ -145,7 +145,7 @@
                         if ( $(e.target).hasClass('item-folio__project-link') ||
                             $(e.target).parent().hasClass('item-folio__project-link') ) {
 
-                            window.location = $(e.target).data('link');
+                            window.open($(e.target).data('link'));
 
                         } else {
 
