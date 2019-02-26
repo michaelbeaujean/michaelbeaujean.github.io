@@ -90,7 +90,6 @@
         // close menu clicking outside the menu itself
         siteBody.on('click', function(e){
             if( !$(e.target).is('.header-nav, .header-nav__content, .header-menu-toggle, .header-menu-toggle span') ) {
-                // menuTrigger.removeClass('is-clicked');
                 siteBody.removeClass('menu-is-open');
             }
         });
@@ -110,6 +109,7 @@
 
                 var $folio = $(this),
                     $thumbLink =  $folio.find('.thumb-link'),
+                    $screenshotType = $folio.data('screenshot-type'),
                     $href = $thumbLink.attr('href'),
                     $projectLink = $folio.find('.item-folio__project-link').attr('href'),
                     $title = $folio.find('.item-folio__title'),
@@ -119,11 +119,22 @@
                     $size = $thumbLink.data('size').split('x'),
                     $width  = $size[0],
                     $height = $size[1];
-         
-                var item = {
-                    src  : $href,
-                    w    : $width,
-                    h    : $height
+
+                if ($screenshotType === 'video') {
+                    var $projectID = $folio.data('project');
+                    var $poster = $folio.data('poster');
+
+                    var item = {
+                        html : '<video class="video-screenshot" id="' + $projectID + '" poster="' + $poster + '"loop controls><source src="' + $href + '" type="video/webm"></video>',
+                        w    : $width,
+                        h    : $height
+                    }
+                } else {
+                    var item = {
+                        src : $href,
+                        w    : $width,
+                        h    : $height
+                    }
                 }
 
                 if ($caption.length > 0) {
@@ -157,11 +168,22 @@
                             // Photoswipe Link Button
                             var $projectLink = $(this).find('.item-folio__project-link').attr('href');
 
-                            $('#js-pswp__button--link').attr('href', $projectLink);                    
+                            $('#js-pswp__button--link').attr('href', $projectLink);
 
                             // initialize PhotoSwipe
                             var lightBox = new PhotoSwipe($pswp, PhotoSwipeUI_Default, items, options);
-                            lightBox.init();                            
+                            lightBox.init();
+
+                            if ($(this).data('screenshot-type') === 'video') {
+                                var _this = $(this);
+                                var vidSelector = _this.data('project');
+
+                                setTimeout(function() {
+                                    var vidEl = document.getElementById(vidSelector);
+
+                                    vidEl.play();
+                                }, 500);
+                            }
                         }
                     }
                 });
