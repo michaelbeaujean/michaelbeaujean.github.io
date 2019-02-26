@@ -125,7 +125,7 @@
                     var $poster = $folio.data('poster');
 
                     var item = {
-                        html : '<video class="video-screenshot" id="' + $projectID + '" poster="' + $poster + '"loop controls><source src="' + $href + '" type="video/webm"></video>',
+                        html : '<video class="video-screenshot" id="' + $projectID + '" poster="' + $poster + '" loop controls muted><source src="' + $href + '.webm" type="video/webm"><source src="' + $href + '.mp4" type="video/mp4"><p>Your browser does not support the video element.</p></video>',
                         w    : $width,
                         h    : $height
                     }
@@ -162,7 +162,9 @@
 
                             var options = {
                                 index: i,
-                                showHideOpacity: true
+                                showHideOpacity: true,
+                                allowPanToNext: false,
+                                arrowKeys: false
                             }
 
                             // Photoswipe Link Button

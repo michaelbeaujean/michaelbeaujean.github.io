@@ -1347,7 +1347,7 @@ pswp__caption__center/* ========================================================
     cursor: pointer;
     overflow: visible;
     -webkit-appearance: none;
-    display: block;
+    display: none;
     border: 0;
     padding: 0;
     margin: 0;
@@ -1394,7 +1394,7 @@ over element that should close gallery
 @media (-webkit-min-device-pixel-ratio: 1.1), (-webkit-min-device-pixel-ratio: 1.09375), (min-resolution: 105dpi), (min-resolution: 1.1dppx) {
     /* Serve SVG sprite if browser supports SVG and resolution is more than 105dpi */
     .pswp--svg .pswp__button, .pswp--svg .pswp__button--arrow--left:before, .pswp--svg .pswp__button--arrow--right:before {
-        background-image: url(images/photoswipe/default-skin.svg);
+        background-image: url(../images/photoswipe/default-skin.svg);
     }
     .pswp--svg .pswp__button--arrow--left, .pswp--svg .pswp__button--arrow--right {
         background: none;
@@ -1403,6 +1403,7 @@ over element that should close gallery
 
 .pswp__button--close {
     background-position: 0 -44px;
+    display: block;
 }
 
 .pswp__button--link {
