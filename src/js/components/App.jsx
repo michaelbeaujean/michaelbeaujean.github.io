@@ -49,16 +49,33 @@ class App extends Component {
           }
 
           .summary {
+            display: none;
             position: absolute;
-            left: -80px;
-            bottom: 60px;
-            transform: rotate(-90deg);
+            left: 0;
+            bottom: 0;
+
+            @media (min-width: 640px) {
+              display: block;
+            }
+
+            @media (min-width: 1200px) {
+              left: -80px;
+              bottom: 60px;
+              transform: translate3d(0, 0, 0) rotate(-90deg);
+            }
           }
 
           .content {
-            width: calc(100% - 360px);
-            height: auto;
             margin: 80px auto 0;
+
+            @media (min-width: 640px) {
+              height: calc(100% - 200px);
+            }
+
+            @media (min-width: 1200px) {
+              width: calc(100% - 360px);
+              height: auto;
+            }
           }
         `}</style>
       </div>

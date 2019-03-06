@@ -1,9 +1,14 @@
 :root {
+  /* colors */
   --black: #0d0900;
   --white: #ffffff;
   --accent: #f15d4a;
+  /* typeography */
   --fontSansSerif: 'Montserrat', Arial, Helvetica, sans-serif;
   --fontSerif: 'Playfair Display', Times, serif;
+  /* animation */
+  --duration: .25s;
+  --easeCb: cubic-bezier(0.75, 0.25, 0.25, 0.75);
 }
 
 html,
@@ -17,6 +22,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
+  font-size: 16px;
 }
 
 body {
