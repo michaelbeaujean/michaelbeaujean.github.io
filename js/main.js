@@ -111,6 +111,7 @@
                     $thumbLink =  $folio.find('.thumb-link'),
                     $screenshotType = $folio.data('screenshot-type'),
                     $href = $thumbLink.attr('href'),
+                    $videoId = $thumbLink.attr('data-video-id'),
                     $projectLink = $folio.find('.item-folio__project-link').attr('href'),
                     $title = $folio.find('.item-folio__title'),
                     $caption = $folio.find('.item-folio__caption'),
@@ -121,11 +122,9 @@
                     $height = $size[1];
 
                 if ($screenshotType === 'video') {
-                    var $projectID = $folio.data('project');
-                    var $poster = $folio.data('poster');
-
                     var item = {
-                        html : '<video class="video-screenshot" id="' + $projectID + '" poster="' + $poster + '" loop controls muted><source src="' + $href + '.webm" type="video/webm"><source src="' + $href + '.mp4" type="video/mp4"><p>Your browser does not support the video element.</p></video>',
+                        // html : '<video class="video-screenshot" id="' + $projectID + '" poster="' + $poster + '" loop controls muted><source src="' + $href + '.webm" type="video/webm"><source src="' + $href + '.mp4" type="video/mp4"><p>Your browser does not support the video element.</p></video>',
+                        html: '<div class="video-screenshot"><iframe class="video-screenshot" width="100%" height="100%" src="https://www.youtube.com/embed/' + $videoId +  '?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>',
                         w    : $width,
                         h    : $height
                     }
@@ -176,16 +175,16 @@
                             var lightBox = new PhotoSwipe($pswp, PhotoSwipeUI_Default, items, options);
                             lightBox.init();
 
-                            if ($(this).data('screenshot-type') === 'video') {
-                                var _this = $(this);
-                                var vidSelector = _this.data('project');
+                            // if ($(this).data('screenshot-type') === 'video') {
+                            //     var _this = $(this);
+                            //     var vidSelector = _this.data('project');
 
-                                setTimeout(function() {
-                                    var vidEl = document.getElementById(vidSelector);
+                            //     setTimeout(function() {
+                            //         var vidEl = document.getElementById(vidSelector);
 
-                                    vidEl.play();
-                                }, 500);
-                            }
+                            //         vidEl.play();
+                            //     }, 500);
+                            // }
                         }
                     }
                 });
