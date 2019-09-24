@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>OppenheimerFunds 2019 Interactive Outlook</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="robots" content="noindex, nofollow">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <link href="css/styles.css" media="all" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="js/jquery.min.js"></script> -->
+    <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="js/d3.v3.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/d3js/5.12.0/d3.min.js"></script> -->
+    <script type="text/javascript" src="js/d3-ease.v1.min.js"></script>
+    <script type="text/javascript" src="js/d3.geo.projection.v0.min.js"></script>
+    <script type="text/javascript" src="js/namespacer.js"></script>
+    <script type="text/javascript" src="js/controller.js"></script>
+    <script type="text/javascript" src="js/queue.v1.min.js"></script>
+    <script type="text/javascript" src="js/topojson.v1.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+  <body>
+    <header class="header"></header>
+    <section class="main-section">
+      <div id="main-content">
+        <button id="scroll-btn" class="scroll-intro"><span>Continue</span></button>
+        <section class="landing" data-section-number="1" data-section-name="Landing">
+          <div class="fixed-bg-img">
+            <div class="bg-img img-1"></div>
+            <div class="bg-img img-2"></div>
+            <div class="bg-img img-3"></div>
+          </div>
+          <div class="bg-container">
+            <div class="head">
+              <div class="row">
+                <div class="column">
+                  <span class="eye-brow">2019 Outlook</span>
+                  <div class="title">
+                    <h1>
+                      <span class="block-wrapper"><span class="top kiwi">U.S. Lands Softly,</span> </span>
+                      <span class="bottom"><span class="block-wrapper"><span class="text-bg">Converges with </span></span><span class="block-wrapper"><span class="text-bg">Rest of the World</span></span></span>
+                    </h1>
+                  </div>
+                  <p>In 2018, late-cycle fiscal stimulus in the U.S. spurred stronger growth at a time when the unemployment and savings rates were low and inflation was already slowly trending upward. U.S. economic growth will likely slow in the first half of 2019, converging with the pace of global growth as the effects of the 2017 tax reform and fiscal stimulus fade. A combination of a higher U.S. current account deficit and federal budget deficit will likely moderate the recent strong U.S. dollar trend. In emerging markets, valuations remain attractive and their long-term growth story is still positive. In the near-term, we expect a more favorable U.S.-China trade relationship and the traction of Chinese stimulus to catalyze emerging market growth, though this is not assured. In short, 2019 will likely be a story of convergence.</p>
+                  <div class="top-navbar">
+                    <div class="download-btn-container advisors-investors-only">
+                      <a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World.pdf" target="_blank" rel="noopener noreferrer" class="download-btn">
+                      Download Outlook
+                      <span class="close-lang-option">&#x000D7;</span>
+                      </a>
+                      <ul class="lang-option">
+                        <li><a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World.pdf" target="_blank" rel="noopener noreferrer">In English</a></li>
+                        <li><a href="../doc/2019_Outlook_Spanish.pdf" target="_blank" rel="noopener noreferrer">En Español</a></li>
+                        <li><a href="../doc/2019_Outlook_French.pdf" target="_blank" rel="noopener noreferrer">En Français</a></li>
+                        <li><a href="../doc/2019_Outlook_German.pdf" target="_blank" rel="noopener noreferrer">Auf Deutsch</a></li>
+                      </ul>
+                    </div>
+                    <div class="download-btn-container international-only">
+                      <a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World_International.pdf" target="_blank" rel="noopener noreferrer" class="download-btn">
+                      Download Outlook
+                      <span class="close-lang-option">&#x000D7;</span>
+                      </a>
+                      <ul class="lang-option">
+                        <li><a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World_International.pdf" target="_blank" rel="noopener noreferrer">In English</a></li>
+                        <!-- <li><a href="https://www.oppenheimerfunds.com/international/da/2018_Mid-Year_Outlook_Spanish.pdf" target="_blank" rel="noopener noreferrer">En Español</a></li> -->
+                        <!--                                             <li><a href="../da/2018_Outlook_French.pdf">En Français</a></li> -->
+                      </ul>
+                    </div>
+                    <a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World.pdf" target="_blank" rel="noopener noreferrer" class="download-btn">Download Outlook</a>
+                    <a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World_Institutional.pdf" target="_blank" rel="noopener noreferrer" class="download-btn institutional-investors-only">Download Outlook</a>
+                    <a href="#asset-class" class="asset-class-btn"><span class="table-icon"></span>Asset Allocation Views</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="map" data-section-number="2" data-section-name="Global Landscape">
+          <div class="bg-global" style="background-image:url('./images/bg-global.jpg')"></div>
+          <div class="bg-container">
+            <div class="map-container">
+              <div class="row">
+                <div class="column">
+                  <h3>Global Landscape</h3>
+                  <p>We’ve examined macroeconomic conditions (via indicators such as the Purchasing Managers’ Index), policy guidance (interest rates), and current real yields to help you understand some of the most crucial factors for global investing. Explore selected economic and financial data for countries around the world below.</p>
+                  <div class="heat-nav">
+                    <ul class="heat-btns">
+                      <li><a href="#">Macro</a></li>
+                      <li><a href="#">Policy</a></li>
+                      <li><a href="#">Real Yields</a></li>
+                    </ul>
+                    <div class="heat-legend">
+                      <ul class="">
+                        <li>&nbsp;</li>
+                        <li>&nbsp;</li>
+                        <li>&nbsp;</li>
+                        <li>&nbsp;</li>
+                        <li>&nbsp;</li>
+                      </ul>
+                      <span class="heat-label"></span>
+                      <span class="heat-label"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="map-wrapper">
+                <div id="map"></div>
+              </div>
+              <div class="heat-legend mobile-only">
+                <ul class="">
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                </ul>
+                <span class="heat-label"></span>
+                <span class="heat-label"></span>
+              </div>
+              <div class="sect-tooltip">
+                <button type="button" class="close-tooltip"></button>
+                <span class="title">Global Landscape</span>
+                <span class="instructions">We’ve examined macroeconomic conditions (PMI), policy guidance (interest rates), and current real yields to help you understand some of the most crucial factors for global investing. Click on the tabs to understand the different factors affecting your investing.</span>
+              </div>
+              <p class="footnote">&nbsp;</p>
+            </div>
+          </div>
+        </section>
+        <section class="regional-nav" data-section-number="3" data-section-name="Regional Views">
+          <div class="bg-container">
+            <div class="row">
+              <div class="column">
+                <ul class="btns" data-active-btn="">
+                  <li>
+                    <a href="#">
+                      <div class="btn-bg-img"></div>
+                      <div class="btn-bg-img ie-only"></div>
+                      <div class="view-text">
+                        <h4>United States</h4>
+                        <p>U.S. growth will likely slow gradually in 2019 as the effects of tax <span>reform fade.</span></p>
+                        <span class="view-text-cta">Regional View</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="btn-bg-img"></div>
+                      <div class="btn-bg-img ie-only"></div>
+                      <div class="view-text">
+                        <h4>International</h4>
+                        <p>The euro area economy is decelerating and will likely grow at a slower pace <span>next year.</span></p>
+                        <span class="view-text-cta">Regional View</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="btn-bg-img"></div>
+                      <div class="btn-bg-img ie-only"></div>
+                      <div class="view-text">
+                        <h4>Emerging Markets</h4>
+                        <p>Solid fundamentals and accommodative Chinese policy should help emerging markets <span>in 2019.</span></p>
+                        <span class="view-text-cta">Regional View</span>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+    <!--             <div class="sect-tooltip">
+                  <button type="button" class="close-tooltip"></button>
+                  <span class="title">Regional Views</span>
+                  <span class="instructions">Click on 1 of the 3 regions to see its outlook for 2018.</span>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="asset-class" data-section-number="4" data-section-name="Asset Allocation Views">
+          <div class="bg-container">
+            <div class="row head">
+              <div class='column'>
+                <h3>Asset Allocation Views</h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="column">
+                <p>Stocks remain cheap to bonds and should continue to outperform bonds throughout the rest of this elongated cycle. Notably, U.S. corporate bonds—investment grade and high yield—remain overvalued on a relative basis and will remain so until the next recession.</p>
+                <p>International assets remain very cheap relative to the U.S. Regardless of short-term relative performance in 2019, the long-term returns of international assets are likely to be higher, given current valuations.</p>
+              </div>
+            </div>
+            <div class="table row">
+              <div class="column">
+                <div class="asset-class-bar">
+                  <div class="asset-column"><span class="eng-us">Favored</span><span class="eng-brit">Favoured</span> Equity Assets</div>
+                  <div class="asset-column">
+                    <div class="item">Why is this favored?</div>
+                    <div class="item">Related Funds</div>
+                  </div>
+                </div>
+                <div>
+                  <div class="asset-row">
+                    <div class="asset-column">
+                      <div class="item">Emerging Markets</div>
+                      <div class="line">
+                        <span class="dot"></span>
+                      </div>
+                      <div class="item">Developed Markets</div>
+                    </div>
+                    <div class="asset-column">
+                      <div class="sect-tooltip">
+                        <span class="title">Want more details?</span>
+                        <span class="instructions">Click on the plus icon to see why this asset class is favored, including <span>related content.</span></span>
+                        <button type="button" class="close-tooltip"><span>Ok, got it</span></button> 
+                      </div>
+                      <a href="#" class="asset-detail">
+                        <div class="detail-expand"></div>
+                        &nbsp; <span>Equity - Emerging Markets</span>
+                      </a>
+                      <a href="../fund/developing-markets-fund/00788" class="fund">ODVYX</a>
+                    </div>
+                  </div>
+                  <div class="detail-row">
+                    <a href="#" class="close-btn">Equity - Emerging Markets</a>
+                    <div class="detail-content">
+                      <h5>Why is this <span class="eng-us">favored</span><span class="eng-brit">favoured</span>?</h5>
+                      <p>Short-term weakness in emerging market stocks could prove to be a buying opportunity for long-term investors.</p>
+                      <div class="related-wrapper">
+                        <div class="related-content">
+                          <!-- <h6 class="title">Emerging Market/Developed Market <br />P/S Ratio Since ’95</h6> -->
+                          <img src="./images/chart1.svg" />
+                          <p><strong>Source: </strong>Bloomberg, OppenheimerFunds, 4/30/18. Note: P/S = price-to-sales ratio. Shaded areas denote global all-industry contractions. SD = standard deviation. For illustrative purposes only. <strong>Past performance does not guarantee future results.</strong></p>
+                        </div>
+                        <div class="related-content">
+                          <h6>Related Content:</h6>
+                          <ul>
+                            <li class="institutional-investors-off international-off"><a href="../interactive/globalize-your-portfolios">Globalize Your Portfolios</a></li>
+                            <li><a href="../article/10-things-to-know-about-emerging-market-stocks">10 Things to Know About Emerging Market Stocks</a></li>
+                          </ul>
+                          <!-- <ul>
+                            <li class="institutional-investors-off international-off"><a href="../interactive/globalize-your-portfolios">Globalize Your Portfolios</a></li>
+                            <li><a href="../article/10-things-to-know-about-emerging-market-stocks">10 Things to Know About Emerging Market Stocks</a></li>
+                            </ul> -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="asset-row">
+                    <div class="asset-column">
+                      <div class="item">United States</div>
+                      <div class="line">
+                        <span class="dot"></span>
+                      </div>
+                      <div class="item">International</div>
+                    </div>
+                    <div class="asset-column">
+                      <a href="#" class="asset-detail">
+                        <div class="detail-expand"></div>
+                        &nbsp; <span>Equity - United States</span>
+                      </a>
+                      <a href="../fund/global-opportunities-fund/00219" class="fund">OGIYX</a>
+                    </div>
+                  </div>
+                  <div class="detail-row">
+                    <a href="#" class="close-btn">Equity - United States</a>
+                    <div class="detail-content">
+                      <h5>Why is this <span class="eng-us">favored</span><span class="eng-brit">favoured</span>?</h5>
+                      <p>There are several headwinds facing European stocks, but investors shouldn’t get too pessimistic as much of the bad news has already been priced in.</p>
+                      <div class="related-wrapper">
+                        <div class="related-content">
+                          <!-- <h6 class="title">The European P/S Ratio Is Attractive Relative to<br /> Global and U.S. P/S Ratios</h6> -->
+                          <img src="./images/chart2.svg" />
+                          <p><strong>Source: </strong>Bloomberg, OppenheimerFunds, 3/30/18. Note: P/S = price-to-sales ratio. Ranked from left to right—from highest P/S to lowest P/S. ACWI = All Country World Index. European average since 12/31/98. Shaded areas denote global all-industry contractions. SD = standard deviation. <strong>Past performance does not guarantee future results.</strong></p>
+                        </div>
+                        <div class="related-content">
+                          <h6>Related Content:</h6>
+                          <ul>
+                            <li class="institutional-investors-off international-off"><a href="../interactive/globalize-your-portfolios">Globalize Your Portfolios</a></li>
+                            <li class="institutional-investors-off international-off"><a href="../article/10-reasons-to-consider-investing-in-international-equities">10 Reasons to Consider Investing in International Equities</a></li>
+                            <li class="advisors-off investors-off registered-investment-advisors-off private-client-groups-off"><a href="../article/the-oppenheimerfunds-equity-strategy-playbook">The OppenheimerFunds Equity Strategy Playbook</a></li>
+                          </ul>
+                          <!-- <ul>
+                            <li class="institutional-investors-off international-off"><a href="../interactive/globalize-your-portfolios">Globalize Your Portfolios</a></li>
+                            <li><a href="../article/10-reasons-to-consider-investing-in-international-equities">10 Reasons to Consider Investing in International Equities</a></li>
+                            </ul> -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="asset-row">
+                    <div class="asset-column">
+                      <div class="item">Value</div>
+                      <div class="line">
+                        <span class="dot"></span>
+                      </div>
+                      <div class="item">Growth</div>
+                    </div>
+                    <div class="asset-column">
+                      <a href="#" class="asset-detail">
+                        <div class="detail-expand"></div>
+                        &nbsp; <span>Equity - Growth</span>
+                      </a>
+                      <a href="../fund/discovery-mid-cap-growth-fund/00724" class="fund">OEGYX</a>
+                    </div>
+                  </div>
+                  <div class="detail-row">
+                    <a href="#" class="close-btn">Equity - Growth</a>
+                    <div class="detail-content">
+                      <h5>Why is this <span class="eng-us">favored</span><span class="eng-brit">favoured</span>?</h5>
+                      <p>We expect U.S. growth stocks to continue outperforming because of rising short-term interest rates, a flattening yield curve, tightening monetary policy, heightened volatility and peaking economic growth.</p>
+                      <div class="related-wrapper">
+                        <div class="related-content">
+                          <!-- <h6 class="title">U.S. Multi-Cap Value and Growth 12-Month <br />Forward Earnings Growth Since ’07</h6> -->
+                          <img src="./images/chart3.svg" />
+                          <p><strong>Source: </strong>Bloomberg, OppenheimerFunds, 3/30/18. Note: EPS = earnings per share. <strong>Past performance does not guarantee future results.</strong></p>
+                        </div>
+                        <div class="related-content">
+                          <h6>Related Content:</h6>
+                          <ul>
+                            <li><a href="../article/the-oppenheimerfunds-equity-strategy-playbook">The OppenheimerFunds Equity Strategy Playbook</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="table row">
+              <div class="column">
+                <div class="asset-class-bar">
+                  <div class="asset-column"><span class="eng-us">Favored</span><span class="eng-brit">Favoured</span> Fixed Income Assets</div>
+                  <div class="asset-column">
+                    <div class="item">Details</div>
+                    <div class="item">Related Funds</div>
+                  </div>
+                </div>
+                <div>
+                  <div class="asset-row">
+                    <div class="asset-column">
+                      <div class="item">Emerging Markets</div>
+                      <div class="line">
+                        <span class="dot"></span>
+                      </div>
+                      <div class="item">Developed Markets</div>
+                    </div>
+                    <div class="asset-column">
+                      <a href="#" class="asset-detail">
+                        <div class="detail-expand"></div>
+                        &nbsp; <span>Fixed Income - Emerging Markets</span>
+                      </a>
+                      <a href="../fund/international-bond-fund/00874" class="fund">OIBYX</a>
+                    </div>
+                  </div>
+                  <div class="detail-row">
+                    <a href="#" class="close-btn">Fixed Income - Emerging Markets</a>
+                    <div class="detail-content">
+                      <h5>Why is this <span class="eng-us">favored</span><span class="eng-brit">favoured</span>?</h5>
+                      <p>Emerging market fixed income remains one of the best opportunities for investors. Low valuations, strong fundamentals, and a weaker U.S. dollar should all benefit EM bonds in 2019.</p>
+                      <div class="related-wrapper">
+                        <div class="related-content">
+                          <!-- <h6 class="title">Average Real Yield of Emerging Market<br /> 10-Year Bonds</h6> -->
+                          <img src="./images/chart4.svg" />
+                          <p><strong>Source: </strong>Bloomberg, 4/30/18. Countries included in the average real yield calculations are India, Russia, China, Mexico, Indonesia, Turkey and Brazil. Real yields are the nominal yield of a country’s sovereign bond minus the year-over-year change in their respective consumer price index. <strong>Past performance does not guarantee future results.</strong></p>
+                        </div>
+                        <div class="related-content">
+                          <h6>Related Content:</h6>
+                          <ul>
+                            <li class="international-off institutional-investors-off"><a href="../interactive/globalize-your-portfolios">Globalize Your Portfolios</a></li>
+                            <li class="international-off institutional-investors-off registered-investment-advisors-off private-client-groups-off"><a href="../article/3-potential-benefits-of-international-bonds">3 Potential Benefits of International Bonds</a></li>
+                            <li class="advisors-off investors-off registered-investment-advisors-off private-client-groups-off"><a href="../article/article/global-debt-quarterly-macro-update">Global Debt: Quarterly Macro Update</a></li>
+                          </ul>
+                          <!-- <ul>
+                            <li class="institutional-investors-off international-off"><a href="../interactive/globalize-your-portfolios">Globalize Your Portfolios</a></li>
+                            
+                            <li class="registered-investment-advisors-off private-client-groups-off international-off"><a href="../article/enhancing-fixed-income-efficiency-through-diversification">Enhancing Fixed Income Efficiency Through Diversificatione</a></li>
+                            <li class="registered-investment-advisors-off private-client-groups-off"><a href="../article/global-debt-quarterly-macro-update">Global Debt: Quarterly Macro Update</a></li>
+                            </ul> -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="asset-row">
+                    <div class="asset-column">
+                      <div class="item">Corporate Credit</div>
+                      <div class="line">
+                        <span class="dot"></span>
+                      </div>
+                      <div class="item">Treasuries</div>
+                    </div>
+                    <div class="asset-column">
+                      <a href="#" class="asset-detail">
+                        <div class="detail-expand"></div>
+                        &nbsp; <span>Fixed Income - Corporate Credit</span>
+                      </a>
+                      <a href="../fund/senior-floating-rate-fund/00294" class="fund">OOSYX</a>
+                    </div>
+                  </div>
+                  <div class="detail-row">
+                    <a href="#" class="close-btn">Fixed Income - Corporate Credit</a>
+                    <div class="detail-content">
+                      <h5>Why is this <span class="eng-us">favored</span><span class="eng-brit">favoured</span>?</h5>
+                      <p>Most U.S. credit is at fully valued levels in the U.S. Investors should expect coupon-like returns and little further price appreciation in 2019.</p>
+                      <div class="related-wrapper">
+                        <div class="related-content">
+                          <!-- <h6 class="title">Investors Will Have to Look for <br />Income Beyond Traditional Sources</h6>
+                            <div class="sub">Current Yields as of 10/31/17</div> -->
+                          <img src="./images/chart5.svg" />
+                          <p>*Taxable equivalent yield (TEY) is based on the standardized yield and the combined effective federal and state tax rate of 43.4% for 2017 and assumes that alternative minimum tax (AMT) does not apply.</p>
+                          <p><strong>Source: </strong>Bloomberg, 5/31/18. Asset classes are represented by the following indices (in the order they appear on the chart): Treasuries Index, Barclays U.S. Aggregate: Agencies Index, Aggregate Bond Index, Commercial Mortgage-Backed Securities Index, Corporate Investment Grade Bond Index, FTSE NAREIT All Equity REIT Index, Merrill Lynch BBB Municipal Bond Index, Credit Suisse Leveraged Loan Index, Alerian MLP Index, JPMorgan GBI-EM Global Diversified Composite Index and Barclays High Yield Bond Index. <strong>Past performance does not guarantee future results.</strong></p>
+                        </div>
+                        <div class="related-content">
+                          <h6>Related Content:</h6>
+                          <ul>
+                            <li><a href="../article/the-oppenheimerfunds-income-strategy-playbook">The OppenheimerFunds Income Strategy Playbook</a></li>
+                            <li class="international-off institutional-investors-off"><a href="../article/building-income-portfolios-in-an-income-challenged-world">Building Income Portfolios in an Income-Challenged World</a></li>
+                            <li class="international-off institutional-investors-off"><a href="../article/complement-your-core-with-senior-loans">Complement Your Core with Senior Loans</a></li>
+                          </ul>
+                          <!-- <ul>
+                            <li class="institutional-investors-off international-off"><a href="../article/building-income-portfolios-in-an-income-challenged-world">Building Income Portfolios in an Income-Challenged World</a></li>
+                            <li class="institutional-investors-off international-off"><a href="../article/complement-your-core-with-senior-loans">Complement Your Core with Senior Loans</a></li>
+                            
+                            <li class="registered-investment-advisors-off private-client-groups-off"><a href="../article/global-debt-quarterly-macro-update">Global Debt: Quarterly Macro Update</a></li>
+                            </ul> -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="asset-row">
+                    <div class="asset-column">
+                      <div class="item">Short Duration</div>
+                      <div class="line">
+                        <span class="dot"></span>
+                      </div>
+                      <div class="item">Long Duration</div>
+                    </div>
+                    <div class="asset-column">
+                      <a href="#" class="asset-detail">
+                        <div class="detail-expand"></div>
+                        &nbsp; <span>Fixed Income - Short Duration</span>
+                      </a>
+                      <a href="../fund/total-return-bond-fund" class="fund">OPBYX</a>
+                    </div>
+                  </div>
+                  <div class="detail-row">
+                    <a href="#" class="close-btn">Fixed Income - Short Duration</a>
+                    <div class="detail-content">
+                      <h5>Why is this <span class="eng-us">favored</span><span class="eng-brit">favoured</span>?</h5>
+                      <p>2019 will likely see a continuation of the Fed’s rate hike path. In that environment, short-duration assets will likely outperform as benchmark rates move gradually higher.</p>
+                      <div class="related-wrapper">
+                        <div class="related-content">
+                          <!-- <h6 class="title">Interest Rates Likely to Stay Low for Long</h6>
+                            <div class="sub">10-Year Treasury Rate and Nominal Gross Domestic Product (GDP) Y/Y Percent Change (10-Year Moving Average)</div> -->
+                          <img src="./images/chart6.svg" />
+                          <p><strong>Source: </strong>Bureau of Labor Statistics, U.S. Federal Reserve and Bloomberg, 5/31/18. <strong>Past performance does not guarantee future results.</strong></p>
+                        </div>
+                        <div class="related-content">
+                          <h6>Related Content:</h6>
+                          <ul>
+                            <li><a href="../article/the-oppenheimerfunds-income-strategy-playbook">The OppenheimerFunds Income Strategy Playbook</a></li>
+                            <li class="international-off institutional-investors-off"><a href="../article/building-income-portfolios-in-an-income-challenged-world">Building Income Portfolios in an Income-Challenged World</a></li>
+                          </ul>
+                          <!-- <ul>
+                            <li class="institutional-investors-off international-off"><a href="../article/building-income-portfolios-in-an-income-challenged-world">Building Income Portfolios in an Income-Challenged World</a></li>
+                            <li class="registered-investment-advisors-off private-client-groups-off"><a href="../article/global-debt-quarterly-macro-update">Global Debt: Quarterly Macro Update</a></li>
+                            </ul> -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="bottom-cta" data-section-number="5" data-section-name="Bottom CTA">
+          <div class="bg-container">
+            <div class="row">
+              <a href="../contact-us/" class='column registered-investment-advisors-off'>
+                <h4>Have questions?<br />Contact a consultant to get more details.
+                  <span class="arrow"></span>
+                </h4>
+              </a>
+              <a href="../capabilities/" class='column registered-investment-advisors-only'>
+                <h4>Have questions?<br />Contact a consultant to get more details.
+                  <span class="arrow"></span>
+                </h4>
+              </a>
+            </div>
+          </div>
+        </section>
+      </div>
+      <nav id="main-menu" class="" data-section-number="0" data-section-name="Persistent Nav Bar">
+        <div class="nav">
+          <div class='row'>
+            <div class="column">
+              <a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World.pdf" target="_blank" rel="noopener noreferrer" class="download-btn">Download Outlook</a>
+              <a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World_Institutional.pdf" target="_blank" rel="noopener noreferrer" class="download-btn institutional-investors-only">Download Outlook</a>
+              <div class="download-btn-container advisors-investors-only">
+                <a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World.pdf" target="_blank" rel="noopener noreferrer" class="download-btn">
+                Download Outlook
+                </a>
+                <ul class="lang-option">
+                  <li><a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World.pdf" target="_blank" rel="noopener noreferrer">In English</a></li>
+                  <li><a href="../doc/2019_Outlook_Spanish.pdf" target="_blank" rel="noopener noreferrer">En Español</a></li>
+                  <li><a href="../doc/2019_Outlook_French.pdf" target="_blank" rel="noopener noreferrer">En Français</a></li>
+                  <li><a href="../doc/2019_Outlook_German.pdf" target="_blank" rel="noopener noreferrer">Auf Deutsch</a></li>
+                </ul>
+              </div>
+              <div class="download-btn-container international-only">
+                <a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World_International.pdf" target="_blank" rel="noopener noreferrer" class="download-btn">
+                Download Outlook
+                <!-- <span class="close-lang-option">&#x000D7;</span> -->
+                </a>
+                <ul class="lang-option">
+                  <li><a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World_International.pdf" target="_blank" rel="noopener noreferrer">In English</a></li>
+                  <!-- <li><a href="https://www.oppenheimerfunds.com/international/da/2018_Mid-Year_Outlook_Spanish.pdf" target="_blank" rel="noopener noreferrer">En Español</a></li> -->
+                  <!-- <li><a href="../da/2018_Outlook_French.pdf">En Français</a></li> -->
+                </ul>
+              </div>
+              <button type="button" id="mobile-active-sect"><span></span></button>
+              <ul class="page-nav" data-active-section='#'>
+                <li class="nav-item-mobile-only">
+                  <a href="#overview">Overview</a>
+                </li>
+                <li>
+                  <a href="#global-landscape">Global Landscape</a>
+                </li>
+                <li>
+                  <a href="#regional-views">Regional Views</a>
+                </li>
+                <li>
+                  <a href="#asset-class">Asset Allocation Views</a>
+                </li>
+                <li class="nav-item-mobile-only mobile-download-btn">
+                  <a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World.pdf" target="_blank" rel="noopener noreferrer" class="download-btn mobile-only-btn">Download Outlook</a>
+                  <a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World_Institutional.pdf" target="_blank" rel="noopener noreferrer" class="download-btn mobile-only-btn institutional-investors-only">Download Outlook</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="modal" class="stack-low">
+        <button id="modal-close" class="modal-close"></button>
+        <section>
+          <div class="bg-container modal-content">
+            <div class="row">
+              <div class="column">
+                <button class="modal-close branding">
+                  <span class="eye-brow"><span class="branding">OppenheimerFunds</span><span class="line"></span>
+                  <span class="outlook-title">2019 Outlook</span></span>
+                </button>
+                <ul class="head">
+                  <li class="us">
+                    <h2>United States</h2>
+                    <div class="stats">
+                      <p>Countries <span>1</span></p>
+                      <p>Total GDP <span>$19.5T</span></p>
+                      <p>Total Population <span>325.7M</span></p>
+                      <a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World.pdf" target="_blank" rel="noopener noreferrer" class="download-btn">Download Outlook</a>
+                      <a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World_Institutional.pdf" target="_blank" rel="noopener noreferrer" class="download-btn institutional-investors-only">Download Outlook</a>
+                      <div class="download-btn-container international-only">
+                        <a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World_International.pdf" target="_blank" rel="noopener noreferrer" class="download-btn">
+                        Download Outlook
+                        <span class="close-lang-option">&#x000D7;</span>
+                        </a>
+                        <ul class="lang-option">
+                          <li><a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World_International.pdf" target="_blank" rel="noopener noreferrer">In English</a></li>
+                          <!-- <li><a href="https://www.oppenheimerfunds.com/international/da/2018_Mid-Year_Outlook_Spanish.pdf" target="_blank" rel="noopener noreferrer">En Español</a></li> -->
+                          <!--                                             <li><a href="../da/2018_Outlook_French.pdf">En Français</a></li> -->
+                        </ul>
+                      </div>
+                      <div class="download-btn-container advisors-investors-only">
+                        <a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World.pdf" target="_blank" rel="noopener noreferrer" class="download-btn">
+                        Download Outlook
+                        <span class="close-lang-option">&#x000D7;</span>
+                        </a>
+                        <ul class="lang-option">
+                          <li><a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World.pdf" target="_blank" rel="noopener noreferrer">In English</a></li>
+                          <li><a href="../doc/2019_Outlook_Spanish.pdf" target="_blank" rel="noopener noreferrer">En Español</a></li>
+                          <li><a href="../doc/2019_Outlook_French.pdf" target="_blank" rel="noopener noreferrer">En Français</a></li>
+                          <li><a href="../doc/2019_Outlook_German.pdf" target="_blank" rel="noopener noreferrer">Auf Deutsch</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World.pdf" target="_blank" rel="noopener noreferrer" class="download-btn mobile-download-btn">Download Outlook</a>
+                    <a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World_Institutional.pdf" target="_blank" rel="noopener noreferrer" class="download-btn institutional-investors-only mobile-download-btn ">Download Outlook</a>
+                    <div class="download-btn-container advisors-investors-only mobile-download-btn">
+                      <a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World.pdf" target="_blank" rel="noopener noreferrer" class="download-btn">
+                      Download Outlook
+                      <span class="close-lang-option">&#x000D7;</span>
+                      </a>
+                      <ul class="lang-option">
+                        <li><a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World.pdf" target="_blank" rel="noopener noreferrer">In English</a></li>
+                        <li><a href="../doc/2019_Outlook_Spanish.pdf" target="_blank" rel="noopener noreferrer">En Español</a></li>
+                        <li><a href="../doc/2019_Outlook_French.pdf" target="_blank" rel="noopener noreferrer">En Français</a></li>
+                        <li><a href="../doc/2019_Outlook_German.pdf" target="_blank" rel="noopener noreferrer">Auf Deutsch</a></li>
+                      </ul>
+                    </div>
+                    <div class="download-btn-container international-only mobile-download-btn">
+                      <a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World_International.pdf" target="_blank" rel="noopener noreferrer" class="download-btn">
+                      Download Outlook
+                      <span class="close-lang-option">&#x000D7;</span>
+                      </a>
+                      <ul class="lang-option">
+                        <li><a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World_International.pdf" target="_blank" rel="noopener noreferrer">In English</a></li>
+                        <!-- <li><a href="https://www.oppenheimerfunds.com/international/da/2018_Mid-Year_Outlook_Spanish.pdf" target="_blank" rel="noopener noreferrer">En Español</a></li> -->
+                        <!--                                             <li><a href="../da/2018_Outlook_French.pdf">En Français</a></li> -->
+                      </ul>
+                    </div>
+                    <p>While U.S. growth remains solid, the intensifying risks to the expansion from a strong dollar and higher Federal Reserve policy rates loom large over the current U.S. outlook. 2018’s fiscal stimulus is fading, leaving the U.S. with a widening fiscal deficit that may hinder growth in the near term. Inflation looks set to remain subdued, leading to a still-positive but subdued outlook for 2019.</p>
+                  </li>
+                  <li class="international">
+                    <h2>International</h2>
+                    <div class="stats">
+                      <p>Countries <span>20</span></p>
+                      <p>Total GDP <span>$26.1T</span></p>
+                      <p>Total Population <span>609M</span></p>
+                      <a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World.pdf" target="_blank" rel="noopener noreferrer" class="download-btn">Download Outlook</a>
+                      <a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World_Institutional.pdf" target="_blank" rel="noopener noreferrer" class="download-btn institutional-investors-only">Download Outlook</a>
+                      <div class="download-btn-container advisors-investors-only">
+                        <a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World.pdf" target="_blank" rel="noopener noreferrer" class="download-btn">
+                        Download Outlook
+                        <span class="close-lang-option">&#x000D7;</span>
+                        </a>
+                        <ul class="lang-option">
+                          <li><a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World.pdf" target="_blank" rel="noopener noreferrer">In English</a></li>
+                          <li><a href="../doc/2019_Outlook_Spanish.pdf" target="_blank" rel="noopener noreferrer">En Español</a></li>
+                          <li><a href="../doc/2019_Outlook_French.pdf" target="_blank" rel="noopener noreferrer">En Français</a></li>
+                          <li><a href="../doc/2019_Outlook_German.pdf" target="_blank" rel="noopener noreferrer">Auf Deutsch</a></li>
+                        </ul>
+                      </div>
+                      <div class="download-btn-container international-only">
+                        <a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World_International.pdf" target="_blank" rel="noopener noreferrer" class="download-btn">
+                        Download Outlook
+                        <span class="close-lang-option">&#x000D7;</span>
+                        </a>
+                        <ul class="lang-option">
+                          <li><a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World_International.pdf" target="_blank" rel="noopener noreferrer">In English</a></li>
+                          <!-- <li><a href="https://www.oppenheimerfunds.com/international/da/2018_Mid-Year_Outlook_Spanish.pdf" target="_blank" rel="noopener noreferrer">En Español</a></li> -->
+                          <!--                                             <li><a href="../da/2018_Outlook_French.pdf">En Français</a></li> -->
+                        </ul>
+                      </div>
+                    </div>
+                    <a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World.pdf" target="_blank" rel="noopener noreferrer" class="download-btn mobile-download-btn">Download Outlook</a>
+                    <a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World_Institutional.pdf" target="_blank" rel="noopener noreferrer" class="download-btn institutional-investors-only mobile-download-btn ">Download Outlook</a>
+                    <div class="download-btn-container advisors-investors-only mobile-download-btn">
+                      <a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World.pdf" target="_blank" rel="noopener noreferrer" class="download-btn">
+                      Download Outlook
+                      <span class="close-lang-option">&#x000D7;</span>
+                      </a>
+                      <ul class="lang-option">
+                        <li><a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World.pdf" target="_blank" rel="noopener noreferrer">In English</a></li>
+                        <li><a href="../doc/2019_Outlook_Spanish.pdf" target="_blank" rel="noopener noreferrer">En Español</a></li>
+                        <li><a href="../doc/2019_Outlook_French.pdf" target="_blank" rel="noopener noreferrer">En Français</a></li>
+                        <li><a href="../doc/2019_Outlook_German.pdf" target="_blank" rel="noopener noreferrer">Auf Deutsch</a></li>
+                      </ul>
+                    </div>
+                    <div class="download-btn-container international-only mobile-download-btn">
+                      <a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World_International.pdf" target="_blank" rel="noopener noreferrer" class="download-btn">
+                      Download Outlook
+                      <span class="close-lang-option">&#x000D7;</span>
+                      </a>
+                      <ul class="lang-option">
+                        <li><a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World_International.pdf" target="_blank" rel="noopener noreferrer">In English</a></li>
+                        <!-- <li><a href="https://www.oppenheimerfunds.com/international/da/2018_Mid-Year_Outlook_Spanish.pdf" target="_blank" rel="noopener noreferrer">En Español</a></li> -->
+                        <!--                                             <li><a href="../da/2018_Outlook_French.pdf">En Français</a></li> -->
+                      </ul>
+                    </div>
+                    <p>The euro area economy, the second-largest in the world next to the U.S., is growing but at a slower pace than the U.S. economy. Yes, leading indicators of business activity in the European Union (EU)—as expressed by the Composite Purchasing Managers Index (PMI) for the region—remain in expansion territory. However, their current downward trajectory points to decelerating growth, and equity markets respond to change at the margin.</p>
+                  </li>
+                  <li class="em">
+                    <h2>Emerging Markets</h2>
+                    <div class="stats">
+                      <p>Countries <span>23</span></p>
+                      <p>Total GDP <span>$27.6T</span></p>
+                      <p>Total Population <span>3.8B</span></p>
+                      <a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World.pdf" target="_blank" rel="noopener noreferrer" class="download-btn">Download Outlook</a>
+                      <a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World_Institutional.pdf" target="_blank" rel="noopener noreferrer" class="download-btn institutional-investors-only">Download Outlook</a>
+                      <div class="download-btn-container advisors-investors-only">
+                        <a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World.pdf" target="_blank" rel="noopener noreferrer" class="download-btn">
+                        Download Outlook
+                        <span class="close-lang-option">&#x000D7;</span>
+                        </a>
+                        <ul class="lang-option">
+                          <li><a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World.pdf" target="_blank" rel="noopener noreferrer">In English</a></li>
+                          <li><a href="../doc/2019_Outlook_Spanish.pdf" target="_blank" rel="noopener noreferrer">En Español</a></li>
+                          <li><a href="../doc/2019_Outlook_French.pdf" target="_blank" rel="noopener noreferrer">En Français</a></li>
+                          <li><a href="../doc/2019_Outlook_German.pdf" target="_blank" rel="noopener noreferrer">Auf Deutsch</a></li>
+                        </ul>
+                      </div>
+                      <div class="download-btn-container international-only">
+                        <a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World_International.pdf" target="_blank" rel="noopener noreferrer" class="download-btn">
+                        Download Outlook
+                        <span class="close-lang-option">&#x000D7;</span>
+                        </a>
+                        <ul class="lang-option">
+                          <li><a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World_International.pdf" target="_blank" rel="noopener noreferrer">In English</a></li>
+                          <!-- <li><a href="https://www.oppenheimerfunds.com/international/da/2018_Mid-Year_Outlook_Spanish.pdf" target="_blank" rel="noopener noreferrer">En Español</a></li> -->
+                          <!--                                             <li><a href="../da/2018_Outlook_French.pdf">En Français</a></li> -->
+                        </ul>
+                      </div>
+                    </div>
+                    <a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World.pdf" target="_blank" rel="noopener noreferrer" class="download-btn mobile-download-btn">Download Outlook</a>
+                    <a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World_Institutional.pdf" target="_blank" rel="noopener noreferrer" class="download-btn institutional-investors-only mobile-download-btn ">Download Outlook</a>
+                    <div class="download-btn-container advisors-investors-only mobile-download-btn">
+                      <a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World.pdf" target="_blank" rel="noopener noreferrer" class="download-btn">
+                      Download Outlook
+                      <span class="close-lang-option">&#x000D7;</span>
+                      </a>
+                      <ul class="lang-option">
+                        <li><a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World.pdf" target="_blank" rel="noopener noreferrer">In English</a></li>
+                        <li><a href="../doc/2019_Outlook_Spanish.pdf" target="_blank" rel="noopener noreferrer">En Español</a></li>
+                        <li><a href="../doc/2019_Outlook_French.pdf" target="_blank" rel="noopener noreferrer">En Français</a></li>
+                        <li><a href="../doc/2019_Outlook_German.pdf" target="_blank" rel="noopener noreferrer">Auf Deutsch</a></li>
+                      </ul>
+                    </div>
+                    <div class="download-btn-container international-only mobile-download-btn">
+                      <a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World_International.pdf" target="_blank" rel="noopener noreferrer" class="download-btn">
+                      Download Outlook
+                      <span class="close-lang-option">&#x000D7;</span>
+                      </a>
+                      <ul class="lang-option">
+                        <li><a href="../da/2019_Outlook_U.S._Lands_Softly_Converges_with_Rest_of_the_World_International.pdf" target="_blank" rel="noopener noreferrer">In English</a></li>
+                        <!-- <li><a href="https://www.oppenheimerfunds.com/international/da/2018_Mid-Year_Outlook_Spanish.pdf" target="_blank" rel="noopener noreferrer">En Español</a></li> -->
+                        <!--                                             <li><a href="../da/2018_Outlook_French.pdf">En Français</a></li> -->
+                      </ul>
+                    </div>
+                    <p>Emerging market economies have faced headwinds from a stronger dollar and capital flight throughout 2018. Looking into 2019, however, we anticipate many of these trends moderating as the outperformance of the U.S. economy relative to the rest of the world fades. This should provide a supportive backdrop for most emerging market economies with sound fundamentals. China, as the most important emerging market economy, will likely face headwinds from trade disputes with the U.S. along with slowing domestic growth. We anticipate a stabilization in China as trade concerns moderate and policymakers support growth via policy easing without larger, disruptive stimulus.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="column">
+                <h5>Policy</h5>
+                <ul class="policy">
+                  <li class="us">
+                    <p>The bellwethers that typically spell the end of an economic cycle – high and rising inflation, an inverted yield curve, and an unstable U.S. dollar – have yet to materialize. While the U.S. yield curve is slowly moving towards inversion, wage inflation has remained uncharacteristically tame. At this point in the cycle, we would expect the low unemployment rate to accelerate inflationary pressures in the form of rising wages. This force has begun to take shape over the course of 2018, but not at any scale that causes alarm.</p>
+                    <img class="policy-chart" src="./images/US_Policy.svg" />
+                    <p class="footnote"><strong>Source: </strong>Haver Analytics, 10/31/2018</p>
+                    <p>Indeed, with this slow-moving economic cycle, we expect the Fed’s path towards neutral and tighter monetary conditions will span years, not months. The Fed’s preferred measure of inflation, the core Personal Consumption Expenditures (PCE) Index, has only just returned to a 2% growth rate, while the actual level of inflation still remains well below the pre-financial crisis trend.</p>
+                  </li>
+                  <li class="international">
+                    <p>To be fair, the European Central Bank (ECB) didn’t begin its bond-buying program until 2015, whereas the Fed began in 2008, putting Europe’s recovery several years behind the U.S. As a percentage of GDP, euro area central bank assets have almost doubled those of the U.S. Granted, the ECB remains supportive of growth with easy monetary policy. However, short-term interest rates are already at rock-bottom levels, and the Governing Council has been tapering its asset purchases, with a plan to end the program in January 2019.</p>
+                    <img class="policy-chart" src="./images/Int_Policy.svg" />
+                    <p class="footnote"><strong>Source: </strong>Haver Analytics, 10/31/2018</p>
+                  </li>
+                  <li class="em">
+                    <p>The trajectory for most emerging market policy rates remains in a downward and supportive path thanks to slower inflation and improved fiscal positions. There are exceptions, however, including Turkey and Argentina that will likely need to defend their currencies and shore up their current account deficits in 2019 through more aggressive policy tightening. On balance, however, we expect most emerging market policymakers will be dovish as the fundamentals of most economies remain sound. We foresee Chinese policymakers remaining supportive through targeted growth-stabilizing stimulus. China’s goal in 2019 will likely be to shore up faltering export-dependent businesses in the face of trade conflict with the United States. </p>
+                    <img class="policy-chart" src="./images/EM_Policy.svg" />
+                    <p class="footnote"><strong>Source: </strong>The People’s Bank of China, Bloomberg, 9/30/18 *Light gray shading indicates periods of Chinese monetary policy easing.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="column">
+                <h5>Valuation</h5>
+                <ul class="valuation">
+                  <li class="us">
+                    <p>The outlook for equities broadly remains positive, despite stretched valuations in the United States and higher market volatility. Opportunities remain in U.S. equities, but selectivity remains key. International and emerging market stocks present more compelling value at this point in the cycle, but a mixed outlook suggests a catalyst is necessary to bring investor flows. Within fixed income, credit spreads remain tight by historical standards in the United States, and the outlook for bonds suggests investors should not expect anything more than coupon returns over the course of 2019.</p>
+                  </li>
+                  <li class="international">
+                    <p>The MSCI Europe Index’s price-to-sales (P/S) ratio has become extremely cheap relative to that of the MSCI ACWI and USA Index. While investors can pay only $1.24 for every $1.00 of European sales, the deepest discount to the U.S. since the early 2000s, the price could get even cheaper without a catalyst. It’s worth noting that the last time Europe traded at such a discount (i.e., 2003), it enjoyed its longest period of outperformance since the 1970s. While compelling valuation opportunities exist in Europe at a time when the ECB is lending a helping hand, slowing growth means that it could take more time to unlock the potential reward embedded in share prices.</p>
+                  </li>
+                  <li class="em">
+                    <p>Valuations remain compelling in both emerging market equities and fixed income. Across the investable universe, emerging market assets remain some of the cheapest available to investors today based on relative valuations. This may provide an attractive entry point for investors seeking income in emerging market fixed income or capital appreciation in emerging market equities. With the headwind of a stronger U.S. dollar likely abating, emerging market assets remain among our favorite opportunities in 2019.</p>
+                  </li>
+                </ul>
+                <div class="column-wrapper">
+                  <div id="column-chart-left" class="column-wrap">
+                    <h6 class="title">Equity</h6>
+                  </div>
+                  <div id="column-chart-right" class="column-wrap">
+                    <h6 class="title">Fixed Income</h6>
+                  </div>
+                  <div class="chart-tooltip right"></div>
+                  <div class="chart-legend-box">
+                    <div class="items"><span></span> Current</div>
+                    <div class="items"><span></span> Average</div>
+                    <div class="items"><span></span> Discount/Premium</div>
+                  </div>
+                  <p class="footnote"><strong>Sources:&nbsp;&nbsp;</strong>Bloomberg, FactSet, 5/31/2018.</p>
+                  <!-- <p class="footnote"><strong>Sources:&nbsp;&nbsp;</strong><i>Equity - </i>Bloomberg, 9/30/2017.&nbsp;&nbsp;<i>Fixed Income - </i>Barclays, Credit Suisse and JP Morgan as of 9/30/17.</p> -->
+                </div>
+              </div>
+            </div>
+            <ul class="modal-nav">
+              <li>
+                  <a href="#"><span>Regional View <span>United States</span></span></a>
+              </li>
+              <li>
+                  <a href="#"><span>Regional View <span>International</span></span></a>
+              </li>
+              <li>
+                  <a href="#"><span>Regional View <span>Emerging Markets</span></span></a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+      <footer class="footer"></footer>
+    </section>
+  </body>
+</html>

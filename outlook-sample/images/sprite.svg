@@ -1,0 +1,165 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800" height="290" viewBox="0 0 800 290">
+  <defs>
+    <clipPath id="clip-path">
+      <rect x="180" y="140" width="230" height="45.89" style="fill: none"/>
+    </clipPath>
+  </defs>
+  <title>sprite</title>
+  <g>
+    <line x1="20" y1="8" x2="2" y2="8" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-linejoin: round"/>
+    <polyline points="14 2 21 8 14 14" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-linejoin: round"/>
+  </g>
+  <g>
+    <line x1="20" y1="28" x2="2" y2="28" style="fill: none;stroke: #000;stroke-linecap: round;stroke-linejoin: round"/>
+    <polyline points="14 22 21 28 14 34" style="fill: none;stroke: #000;stroke-linecap: round;stroke-linejoin: round"/>
+  </g>
+  <g>
+    <line x1="20" y1="48" x2="2" y2="48" style="fill: none;stroke: #bed633;stroke-linecap: round;stroke-linejoin: round"/>
+    <polyline points="14 42 21 48 14 54" style="fill: none;stroke: #bed633;stroke-linecap: round;stroke-linejoin: round"/>
+  </g>
+  <g>
+    <line x1="9" y1="81" x2="9" y2="63" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-linejoin: round;stroke-width: 2px"/>
+    <polyline points="15 75 9 82 3 75" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-linejoin: round;stroke-width: 2px"/>
+  </g>
+  <g>
+    <line x1="9" y1="111" x2="9" y2="93" style="fill: none;stroke: #000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 2px"/>
+    <polyline points="15 105 9 112 3 105" style="fill: none;stroke: #000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 2px"/>
+  </g>
+  <g>
+    <line x1="9" y1="141" x2="9" y2="123" style="fill: none;stroke: #bed633;stroke-linecap: round;stroke-linejoin: round;stroke-width: 2px"/>
+    <polyline points="15 135 9 142 3 135" style="fill: none;stroke: #bed633;stroke-linecap: round;stroke-linejoin: round;stroke-width: 2px"/>
+  </g>
+  <polyline points="32 2 39 8 32 14" style="fill: none;stroke: #bed633;stroke-linecap: round;stroke-linejoin: round;stroke-width: 2px"/>
+  <g>
+    <g>
+      <line x1="9" y1="180.8" x2="9" y2="166.4" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-linejoin: round"/>
+      <polyline points="13.8 176 9 181.6 4.2 176" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+    <polyline points="6.2 172 3 172 3 160 15 160 15 172 11.8 172" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-linejoin: round"/>
+  </g>
+  <g>
+    <g>
+      <line x1="9" y1="220.8" x2="9" y2="206.4" style="fill: none;stroke: #000;stroke-linecap: round;stroke-linejoin: round"/>
+      <polyline points="13.8 216 9 221.6 4.2 216" style="fill: none;stroke: #000;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+    <polyline points="6.2 212 3 212 3 200 15 200 15 212 11.8 212" style="fill: none;stroke: #000;stroke-linecap: round;stroke-linejoin: round"/>
+  </g>
+  <g>
+    <g>
+      <line x1="9" y1="260.8" x2="9" y2="246.4" style="fill: none;stroke: #bed633;stroke-linecap: round;stroke-linejoin: round"/>
+      <polyline points="13.8 256 9 261.6 4.2 256" style="fill: none;stroke: #bed633;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+    <polyline points="6.2 252 3 252 3 240 15 240 15 252 11.8 252" style="fill: none;stroke: #bed633;stroke-linecap: round;stroke-linejoin: round"/>
+  </g>
+  <polyline points="54.7 13.5 51.5 13.5 51.5 1.5 63.5 1.5 63.5 13.5 60.3 13.5" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-linejoin: round"/>
+  <polyline points="54.7 53.5 51.5 53.5 51.5 41.5 63.5 41.5 63.5 53.5 60.3 53.5" style="fill: none;stroke: #000;stroke-linecap: round;stroke-linejoin: round"/>
+  <polyline points="54.7 93.5 51.5 93.5 51.5 81.5 63.5 81.5 63.5 93.5 60.3 93.5" style="fill: none;stroke: #bed633;stroke-linecap: round;stroke-linejoin: round"/>
+  <g>
+    <line x1="77.5" y1="22.3" x2="77.5" y2="2.9" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-linejoin: round"/>
+    <polyline points="82.3 17.5 77.5 23.1 72.7 17.5" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-linejoin: round"/>
+  </g>
+  <g>
+    <line x1="77.5" y1="62.3" x2="77.5" y2="42.9" style="fill: none;stroke: #000;stroke-linecap: round;stroke-linejoin: round"/>
+    <polyline points="82.3 57.5 77.5 63.1 72.7 57.5" style="fill: none;stroke: #000;stroke-linecap: round;stroke-linejoin: round"/>
+  </g>
+  <g>
+    <line x1="77.5" y1="102.3" x2="77.5" y2="82.9" style="fill: none;stroke: #bed633;stroke-linecap: round;stroke-linejoin: round"/>
+    <polyline points="82.3 97.5 77.5 103.1 72.7 97.5" style="fill: none;stroke: #bed633;stroke-linecap: round;stroke-linejoin: round"/>
+  </g>
+  <rect x="51.5" y="121.5" width="16" height="15" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-linejoin: round"/>
+  <line x1="51.5" y1="125.5" x2="67.5" y2="125.5" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-linejoin: round"/>
+  <rect x="51.5" y="151.5" width="16" height="15" style="fill: none;stroke: #000;stroke-linecap: round;stroke-linejoin: round"/>
+  <line x1="51.5" y1="155.5" x2="67.5" y2="155.5" style="fill: none;stroke: #000;stroke-linecap: round;stroke-linejoin: round"/>
+  <rect x="51.5" y="181.5" width="16" height="15" style="fill: none;stroke: #bfd916;stroke-linecap: round;stroke-linejoin: round"/>
+  <line x1="51.5" y1="185.5" x2="67.5" y2="185.5" style="fill: none;stroke: #bfd916;stroke-linecap: round;stroke-linejoin: round"/>
+  <g>
+    <line x1="51.6" y1="219.5" x2="67.4" y2="219.5" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-linejoin: round"/>
+    <line x1="59.5" y1="211.5" x2="59.5" y2="227.5" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-linejoin: round"/>
+    <line x1="66.5" y1="223.5" x2="52.5" y2="223.5" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-linejoin: round"/>
+    <path d="M62.5,212.5a25,25,0,0,1,0,14" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-linejoin: round"/>
+    <circle cx="59.5" cy="219.5" r="8" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-linejoin: round"/>
+    <path d="M56.5,212.5a25,25,0,0,0,0,14" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-linejoin: round"/>
+    <line x1="66.2" y1="215.5" x2="52.8" y2="215.5" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-linejoin: round"/>
+  </g>
+  <g>
+    <line x1="51.6" y1="239.5" x2="67.4" y2="239.5" style="fill: none;stroke: #000;stroke-linecap: round;stroke-linejoin: round"/>
+    <line x1="59.5" y1="231.5" x2="59.5" y2="247.5" style="fill: none;stroke: #000;stroke-linecap: round;stroke-linejoin: round"/>
+    <line x1="66.5" y1="243.5" x2="52.5" y2="243.5" style="fill: none;stroke: #000;stroke-linecap: round;stroke-linejoin: round"/>
+    <path d="M62.5,232.5a25,25,0,0,1,0,14" style="fill: none;stroke: #000;stroke-linecap: round;stroke-linejoin: round"/>
+    <circle cx="59.5" cy="239.5" r="8" style="fill: none;stroke: #000;stroke-linecap: round;stroke-linejoin: round"/>
+    <path d="M56.5,232.5a25,25,0,0,0,0,14" style="fill: none;stroke: #000;stroke-linecap: round;stroke-linejoin: round"/>
+    <line x1="66.2" y1="235.5" x2="52.8" y2="235.5" style="fill: none;stroke: #000;stroke-linecap: round;stroke-linejoin: round"/>
+  </g>
+  <g>
+    <line x1="51.6" y1="259.5" x2="67.4" y2="259.5" style="fill: none;stroke: #bfd916;stroke-linecap: round;stroke-linejoin: round"/>
+    <line x1="59.5" y1="251.5" x2="59.5" y2="267.5" style="fill: none;stroke: #bfd916;stroke-linecap: round;stroke-linejoin: round"/>
+    <line x1="66.5" y1="263.5" x2="52.5" y2="263.5" style="fill: none;stroke: #bfd916;stroke-linecap: round;stroke-linejoin: round"/>
+    <path d="M62.5,252.5a25,25,0,0,1,0,14" style="fill: none;stroke: #bfd916;stroke-linecap: round;stroke-linejoin: round"/>
+    <circle cx="59.5" cy="259.5" r="8" style="fill: none;stroke: #bfd916;stroke-linecap: round;stroke-linejoin: round"/>
+    <path d="M56.5,252.5a25,25,0,0,0,0,14" style="fill: none;stroke: #bfd916;stroke-linecap: round;stroke-linejoin: round"/>
+    <line x1="66.2" y1="255.5" x2="52.8" y2="255.5" style="fill: none;stroke: #bfd916;stroke-linecap: round;stroke-linejoin: round"/>
+  </g>
+  <g>
+    <line x1="107" y1="28" x2="107" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-linejoin: round;stroke-width: 2px"/>
+    <polyline points="113 22 107 29 101 22" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-linejoin: round;stroke-width: 2px"/>
+  </g>
+  <g>
+    <line x1="107" y1="68" x2="107" y2="40" style="fill: none;stroke: #000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 2px"/>
+    <polyline points="113 62 107 69 101 62" style="fill: none;stroke: #000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 2px"/>
+  </g>
+  <g>
+    <line x1="107" y1="108" x2="107" y2="80" style="fill: none;stroke: #bed633;stroke-linecap: round;stroke-linejoin: round;stroke-width: 2px"/>
+    <polyline points="113 102 107 109 101 102" style="fill: none;stroke: #bed633;stroke-linecap: round;stroke-linejoin: round;stroke-width: 2px"/>
+  </g>
+  <path d="M546.1,94.1H495.9V18h50.2Zm-25.4,13.2c-2.5,0-4.3-2.4-4.3-4.8s1.8-4.9,4.3-4.9a4.84,4.84,0,0,1,4.9,4.9A4.7,4.7,0,0,1,520.7,107.3Zm-5.5-99h11.7a1.29,1.29,0,0,1,1.2,1.2,1.29,1.29,0,0,1-1.2,1.2H515.2A1.29,1.29,0,0,1,514,9.5,1.15,1.15,0,0,1,515.2,8.3ZM544.3,1H497.8S491,1,491,7.6v96.7s0,6.7,6.8,6.7h46.5s6.7,0,6.7-6.7V7.6S551,1,544.3,1Z"/>
+  <g>
+    <path d="M251.3,1H136.7S131,1,131,7.3V84.4s0,6.3,5.7,6.3h42.9v14.5H161V111h66.2v-5.8H208.6V90.7h42.8s5.7,0,5.7-6.3V7.3S257,1,251.3,1Zm-3,82.5H139.7V8.3H248.3V83.5Z"/>
+    <g>
+      <polygon points="177.3 33.2 175.3 23.2 163.8 23.2 163.8 27.3 171.8 27.3 177.9 58.2 212.8 58.2 217.6 33.2 177.3 33.2"/>
+      <g>
+        <circle cx="186" cy="66.3" r="5.4"/>
+        <circle cx="204" cy="66.3" r="5.4"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <path d="M604.3,80.3a7.78,7.78,0,0,1-7.5-7.6,7.39,7.39,0,0,1,7.5-7.6c4.5,0,8,3.1,8,7.6A7.88,7.88,0,0,1,604.3,80.3Zm0-26a18.3,18.3,0,0,0,0,36.6,18.3,18.3,0,1,0,0-36.6Z"/>
+    <path d="M748.1,80.3a7.47,7.47,0,0,1-7.6-7.6,7.19,7.19,0,0,1,7.6-7.6,7.47,7.47,0,0,1,7.6,7.6A7.8,7.8,0,0,1,748.1,80.3Zm0-26a18.35,18.35,0,1,0,18.3,18.4A18.18,18.18,0,0,0,748.1,54.3Z"/>
+    <path d="M660.3,28.9,658.1,8.1l15.6.2c18.7,0,51.3,21.2,51.3,21.2Zm-48.9,0s5.3-11.1,11.5-16.4c4.3-3.7,28.5-4,28.5-4L653,28.4Zm128.1-1.5s-42.8-22-56.8-25.1c-13.5-3.1-61.1,0-65.4,3.1L590.8,19.5l-26,13.6S561,49.6,561,59.8s1,19.3,1,19.3h20V73.3c0-12.5,8.4-23,22.7-23,15,0,22.7,10.5,22.7,23l.5,5.8h97.6V71.8a22,22,0,0,1,22.2-22c11.5,0,23.2,9.4,23.2,22l.5,6.8s13.3.5,17.7-1c0,0,1.4-24.6-6.7-33.5C774.9,36.8,760.2,32.1,739.5,27.4Z"/>
+  </g>
+  <g>
+    <path d="M460.6,47.5,445.4,1,271,1.8V107.3h19.1c0-.5-.1-1-.1-1.5a21,21,0,0,1,42,0,7.57,7.57,0,0,1-.1,1.5h86.4c0-.5-.1-1-.1-1.5a21,21,0,0,1,42,0,7.57,7.57,0,0,1-.1,1.5H478V58.4ZM420.8,68.1,403.3,96.7H385.8V12.8h35Zm7.4-17.2V12.8h13.2l11.8,38.1Z"/>
+    <circle cx="311.1" cy="105.7" r="15.3"/>
+    <circle cx="439.3" cy="105.7" r="15.3"/>
+  </g>
+  <g>
+    <line x1="147" y1="158" x2="100" y2="158" style="fill: none;stroke: #bed633;stroke-linecap: round;stroke-linejoin: round;stroke-width: 2px"/>
+    <polyline points="141 152 148 158 141 164" style="fill: none;stroke: #bed633;stroke-linecap: round;stroke-linejoin: round;stroke-width: 2px"/>
+  </g>
+  <g>
+    <line x1="104.5" y1="200.5" x2="119.5" y2="200.5" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-linejoin: round"/>
+    <line x1="119.5" y1="206.5" x2="104.5" y2="206.5" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-linejoin: round"/>
+    <line x1="119.5" y1="212.5" x2="104.5" y2="212.5" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-linejoin: round"/>
+    <g>
+      <line x1="100.5" y1="200.5" x2="100.5" y2="200.5" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="100.5" y1="206.5" x2="100.5" y2="206.5" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="100.5" y1="212.5" x2="100.5" y2="212.5" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+  <g>
+    <line x1="104.5" y1="240.5" x2="119.5" y2="240.5" style="fill: none;stroke: #000;stroke-linecap: round;stroke-linejoin: round"/>
+    <line x1="119.5" y1="246.5" x2="104.5" y2="246.5" style="fill: none;stroke: #000;stroke-linecap: round;stroke-linejoin: round"/>
+    <line x1="119.5" y1="252.5" x2="104.5" y2="252.5" style="fill: none;stroke: #000;stroke-linecap: round;stroke-linejoin: round"/>
+    <g>
+      <line x1="100.5" y1="240.5" x2="100.5" y2="240.5" style="fill: none;stroke: #000;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="100.5" y1="246.5" x2="100.5" y2="246.5" style="fill: none;stroke: #000;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="100.5" y1="252.5" x2="100.5" y2="252.5" style="fill: none;stroke: #000;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+  <polyline points="41.5 24.5 35.5 31.5 29.5 24.5" style="fill: none;stroke: #bed633;stroke-linecap: round;stroke-linejoin: round;stroke-width: 2px"/>
+  <g style="clip-path: url(#clip-path)">
+    <path d="M228.73,163.58c0-2.89,1.39-6.57,6.29-6.57,4.28,0,6.29,2.81,6.29,6.57s-2,6.57-6.29,6.57c-4.9,0-6.29-3.67-6.29-6.57m9.41,0c0-1.13-.14-4.15-3.12-4.15-1.62,0-3.11.87-3.11,4.15s1.49,4.16,3.11,4.16c3,0,3.12-3.11,3.12-4.16m6.65-2.8,0,1.08h.06a3.52,3.52,0,0,1,2.91-1.42c2.54,0,4.1,1.88,4.1,4.86s-1.58,4.83-4.16,4.83a3.56,3.56,0,0,1-2.73-1.26v4.21h-2.7v-12.3Zm2.15,7.54c1.56,0,2.09-1.49,2.09-3,0-2.52-1.29-3-2.09-3s-2.11.5-2.11,3c0,1.56.53,3,2.11,3m8.31-7.54,0,1.08h.06a3.52,3.52,0,0,1,2.91-1.42c2.54,0,4.1,1.88,4.1,4.86s-1.58,4.83-4.16,4.83a3.56,3.56,0,0,1-2.73-1.26v4.21h-2.7v-12.3Zm2.15,7.54c1.56,0,2.09-1.49,2.09-3,0-2.52-1.29-3-2.09-3s-2.11.5-2.11,3c0,1.56.53,3,2.11,3m15.25-1.13c-.71,2.55-3,2.94-4.69,2.94-1.19,0-4.85-.24-4.85-4.86,0-3.11,2.12-4.83,5.06-4.83,4.43,0,4.59,3.91,4.66,5v.49h-6.92a2.18,2.18,0,0,0,2.17,2.38,1.78,1.78,0,0,0,1.83-1.13ZM270,164.43c-.05-1.93-1.24-2.18-1.9-2.18a2.16,2.16,0,0,0-2.22,2.18Zm6.47-2.57a3.78,3.78,0,0,1,3.12-1.42c1.21,0,3,.34,3,3.69v5.67H280v-5.22c0-.89-.09-2.33-1.52-2.33-1.78,0-1.81,2.08-1.81,2.47v5.08h-2.7v-9h2.59Zm10.25-.11a3.9,3.9,0,0,1,3.06-1.31c1.47,0,3,.64,3,3.69v5.67h-2.7v-5.22c0-.84-.09-2.33-1.53-2.33-1.77,0-1.81,2.13-1.81,2.47v5.08h-2.7V157.37h2.7Zm16.63,5.44c-.71,2.55-3,2.94-4.69,2.94-1.19,0-4.85-.24-4.85-4.86,0-3.11,2.12-4.83,5.06-4.83,4.42,0,4.58,3.91,4.65,5l0,.49h-6.92a2.17,2.17,0,0,0,2.16,2.38,1.76,1.76,0,0,0,1.83-1.13Zm-2.61-2.76c-.06-1.93-1.25-2.18-1.9-2.18a2.16,2.16,0,0,0-2.22,2.18Zm3.87-7.06h2.7v2.11h-2.7Zm2.7,12.43h-2.7v-9h2.7Zm4-9v1.31a3.21,3.21,0,0,1,2.77-1.65,2.6,2.6,0,0,1,2.64,1.81,3.47,3.47,0,0,1,3.09-1.81c2.91,0,3.07,2.66,3.07,3.87v5.49h-2.7v-5.31c0-.94-.14-2.24-1.35-2.24-.76,0-1.65.57-1.65,2.36v5.19h-2.7v-5.31c0-1.35-.28-2.24-1.36-2.24-.7,0-1.64.59-1.64,2.36v5.19h-2.7v-9Zm22.1,6.41c-.71,2.55-3,2.94-4.69,2.94-1.19,0-4.85-.24-4.85-4.86,0-3.11,2.12-4.83,5.06-4.83,4.42,0,4.58,3.91,4.65,5l0,.49h-6.92a2.17,2.17,0,0,0,2.16,2.38,1.76,1.76,0,0,0,1.83-1.13Zm-2.61-2.76c-.06-1.93-1.25-2.18-1.9-2.18a2.16,2.16,0,0,0-2.22,2.18Zm9.95-1.91a2.06,2.06,0,0,0-.35,0h-.36c-1.32,0-2.79.79-2.79,3.6v3.7h-2.7v-9h2.7v1.47a3.22,3.22,0,0,1,3.18-1.81h.32Zm8.35.16v2.39h-4.54v4.73h-2.91V157.46h8.38v2.4h-5.47v2.82Zm7.33,6a3.69,3.69,0,0,1-3,1.41c-2.89,0-3-2.61-3-3.68v-5.6h2.68V166c0,1.76.51,2.3,1.5,2.3,1.69,0,1.81-1.81,1.81-2.46v-5h2.68v9h-2.68Zm6.86-6.8a3.75,3.75,0,0,1,3.1-1.41c1.2,0,3,.34,3,3.67v5.62h-2.68v-5.18c0-.88-.09-2.31-1.51-2.31-1.77,0-1.8,2.06-1.8,2.45v5h-2.68v-9h2.57Zm14,7.88v-1.08h0a3.33,3.33,0,0,1-2.71,1.41c-2.52,0-4.07-2-4.07-4.84s1.57-4.78,4.12-4.78a3.67,3.67,0,0,1,2.7,1.23v-4.28H380V169.8Zm-2-7.49c-1.5,0-2.08,1.46-2.08,3,0,1.89.81,3,2.08,3,1.08,0,2.1-.79,2.1-3,0-2-.76-3-2.1-3m8.29,4.67c.05,1,.72,1.35,1.79,1.35.62,0,1.41-.26,1.41-1,0-1-1.23-1.16-2.57-1.35s-3.17-.6-3.17-2.77c0-.79.33-2.75,4.12-2.75,3.24,0,4,1.6,4,2.8h-2.43c-.09-1-1.06-1-1.41-1s-1.52.05-1.52.77c0,1.06,1.27,1.13,2.24,1.27,1.53.23,3.51.51,3.51,2.73,0,1.36-.69,3-4.29,3-2.8,0-4.38-1.25-4.45-3.15Z" style="fill: #231f20"/>
+    <path d="M220.69,162.52l-.38-.51a.7.7,0,0,0-.52-.35,1.29,1.29,0,0,0,.27-.71.88.88,0,0,0-.21-.55c-.06-.09-.23-.31-.32-.45a.57.57,0,0,0-.48-.22,1.17,1.17,0,0,0,.3-.71.87.87,0,0,0-.19-.51c-.08-.11-.29-.41-.43-.59a1.25,1.25,0,0,0-.76-.51l-.08,0s-.68-.92-.76-1a1.52,1.52,0,0,0-.84-.55l-.93-.23-3.87-4.63-5-2.73a1.14,1.14,0,0,0-.52-.15.92.92,0,0,0-.6.2l-.52.38a.73.73,0,0,0-.35.52,1.29,1.29,0,0,0-.71-.27.89.89,0,0,0-.54.21l-.45.32a.56.56,0,0,0-.23.48,1.15,1.15,0,0,0-.71-.29.9.9,0,0,0-.51.18l-.58.43a1.23,1.23,0,0,0-.52.76v.08l-1,.76a1.55,1.55,0,0,0-.56.84c0,.16-.13.54-.23.93l-4.63,3.87-2.73,5a1.11,1.11,0,0,0-.15.52.88.88,0,0,0,.21.6l.38.52a.72.72,0,0,0,.51.35,1.29,1.29,0,0,0-.27.71.89.89,0,0,0,.21.54l.33.45a.54.54,0,0,0,.47.23,1.15,1.15,0,0,0-.29.71.9.9,0,0,0,.18.51c.09.11.3.4.43.58a1.25,1.25,0,0,0,.77.52l.08,0s.67.92.76,1a1.57,1.57,0,0,0,.84.56l.92.22,3.87,4.64,5,2.72a1,1,0,0,0,.52.16.91.91,0,0,0,.61-.21l.51-.37a.71.71,0,0,0,.35-.52,1.29,1.29,0,0,0,.71.27.94.94,0,0,0,.55-.21l.45-.33a.55.55,0,0,0,.22-.47,1.15,1.15,0,0,0,.71.29.86.86,0,0,0,.51-.18l.59-.43a1.27,1.27,0,0,0,.51-.77l0-.08,1-.75a1.51,1.51,0,0,0,.55-.85c0-.15.14-.54.23-.92l4.63-3.88s2.7-4.94,2.73-5a1.14,1.14,0,0,0,.15-.52,1,1,0,0,0-.2-.61m-13.36,2h-2.86v-2.86h2.86Zm-7.47-12.19c.08-.06.35-.25.47-.35a.49.49,0,0,1,.28-.09.88.88,0,0,1,.47.21l3,2.23a.51.51,0,0,0,.25.09.23.23,0,0,0,.14,0l.22-.13a.16.16,0,0,0,.09-.15.18.18,0,0,0-.08-.15l-3.45-2.61a.3.3,0,0,1-.15-.25.28.28,0,0,1,.15-.23l.41-.31a.43.43,0,0,1,.27-.08.54.54,0,0,1,.32.12l3.7,2.55a.5.5,0,0,0,.29.12.27.27,0,0,0,.16-.05l.2-.12a.16.16,0,0,0,.08-.13.21.21,0,0,0-.08-.15l-3.24-2.32a.29.29,0,0,1-.16-.24.29.29,0,0,1,.15-.24l.32-.24a.39.39,0,0,1,.26-.09.51.51,0,0,1,.31.12l3.46,2.32a.5.5,0,0,0,.25.1.31.31,0,0,0,.15,0l.21-.13a.15.15,0,0,0,.09-.14.18.18,0,0,0-.09-.15l-2.95-2a.31.31,0,0,1-.17-.26.29.29,0,0,1,.15-.24l.3-.22a.42.42,0,0,1,.23-.07.53.53,0,0,1,.28.1l4.57,2.75,3.21,3.85a1.63,1.63,0,0,1,.53,1.13,1,1,0,0,1-.33.73l-1.95,2.14c-.57.63-1.37.85-2.89.85h-4.82v-1.75l.43-.07c.43-.08.65-.29.65-.62s-.26-.53-.6-.82l-5.15-4.36a.3.3,0,0,1-.13-.25.39.39,0,0,1,.19-.32m-4.4,17a.38.38,0,0,1-.31-.19l-.35-.47a.49.49,0,0,1-.09-.28.81.81,0,0,1,.21-.47c.16-.22,1.85-2.49,2.22-3a.45.45,0,0,0,.1-.25.37.37,0,0,0,0-.14l-.14-.22a.19.19,0,0,0-.15-.09.2.2,0,0,0-.15.09c-.37.5-2.52,3.32-2.61,3.45a.32.32,0,0,1-.25.14.28.28,0,0,1-.23-.15l-.3-.41a.44.44,0,0,1-.09-.27.61.61,0,0,1,.12-.32L196,163a.5.5,0,0,0,.12-.29.37.37,0,0,0-.05-.16l-.12-.19a.17.17,0,0,0-.14-.09.19.19,0,0,0-.14.08l-2.32,3.24a.31.31,0,0,1-.25.16.32.32,0,0,1-.24-.14c0-.07-.17-.23-.23-.33a.4.4,0,0,1-.1-.26.46.46,0,0,1,.12-.3c.07-.11,1.77-2.66,2.32-3.47a.5.5,0,0,0,.1-.25.31.31,0,0,0,0-.15s-.1-.16-.12-.21a.16.16,0,0,0-.15-.09.18.18,0,0,0-.15.09l-2,3a.31.31,0,0,1-.26.17.26.26,0,0,1-.23-.15l-.22-.29a.41.41,0,0,1-.08-.24.53.53,0,0,1,.1-.28l2.75-4.57,3.86-3.21a1.63,1.63,0,0,1,1.12-.53,1,1,0,0,1,.73.33l2.15,2c.63.57.85,1.37.85,2.89v4.82h-1.75l-.08-.43c-.08-.43-.29-.65-.61-.65s-.54.26-.83.6l-4.36,5.15a.29.29,0,0,1-.25.13M212,173.81l-.48.34a.49.49,0,0,1-.28.09.76.76,0,0,1-.46-.21c-.23-.16-2.49-1.85-3-2.22a.45.45,0,0,0-.25-.1.2.2,0,0,0-.13,0l-.23.14a.19.19,0,0,0-.09.15.2.2,0,0,0,.09.15c.51.37,3.33,2.52,3.45,2.61a.29.29,0,0,1,.14.24.29.29,0,0,1-.14.24l-.42.3a.39.39,0,0,1-.26.09.62.62,0,0,1-.33-.12L205.86,173a.56.56,0,0,0-.29-.12.3.3,0,0,0-.16,0l-.2.12a.2.2,0,0,0-.09.14.17.17,0,0,0,.09.14c.6.44,3.13,2.24,3.24,2.32a.33.33,0,0,1,.15.25.29.29,0,0,1-.14.24l-.32.23a.44.44,0,0,1-.26.1.55.55,0,0,1-.31-.12L204.1,174a.42.42,0,0,0-.25-.1.25.25,0,0,0-.14,0l-.22.12a.18.18,0,0,0-.09.15.2.2,0,0,0,.09.15c.77.51,2.85,1.93,3,2s.17.17.17.26a.28.28,0,0,1-.15.23l-.3.22a.41.41,0,0,1-.24.08.49.49,0,0,1-.28-.11l-4.57-2.74-3.2-3.85a1.69,1.69,0,0,1-.54-1.13,1,1,0,0,1,.33-.73l2-2.15c.57-.62,1.37-.85,2.89-.85h4.81v1.75l-.43.08c-.42.08-.65.29-.65.61s.26.54.6.83l5.16,4.36a.31.31,0,0,1,.13.25.41.41,0,0,1-.19.32m8-10.51-2.75,4.57-3.85,3.2a1.65,1.65,0,0,1-1.12.54,1,1,0,0,1-.74-.33l-2.14-2c-.63-.57-.85-1.37-.85-2.89v-4.81h1.75s.06.32.07.43c.08.42.29.65.62.65s.54-.26.82-.6c.89-1,3.87-4.57,4.36-5.16a.32.32,0,0,1,.25-.12.38.38,0,0,1,.32.18l.35.48a.49.49,0,0,1,.09.28.83.83,0,0,1-.21.46l-2.23,3a.48.48,0,0,0-.09.25.2.2,0,0,0,0,.13l.13.23a.19.19,0,0,0,.15.09.19.19,0,0,0,.15-.09l2.61-3.45a.28.28,0,0,1,.48,0l.31.42a.4.4,0,0,1,.08.27.54.54,0,0,1-.12.32l-2.55,3.69a.56.56,0,0,0-.12.29.24.24,0,0,0,.05.16l.12.2a.15.15,0,0,0,.13.09.19.19,0,0,0,.15-.09l2.32-3.24a.3.3,0,0,1,.25-.15.28.28,0,0,1,.23.14l.24.32a.43.43,0,0,1,.09.26.48.48,0,0,1-.12.31l-2.32,3.47a.5.5,0,0,0-.1.25.25.25,0,0,0,0,.14l.13.21c.05.08.1.1.14.1a.2.2,0,0,0,.15-.09c.52-.77,1.94-2.85,2-3s.17-.17.26-.17a.31.31,0,0,1,.24.15c.05.07.17.23.21.3a.41.41,0,0,1,.08.24.56.56,0,0,1-.1.28" style="fill: #231f20"/>
+    <path d="M391.23,161.08a2.09,2.09,0,0,1,1.42-.57,2.07,2.07,0,0,1,2.07,2.08,2,2,0,0,1-.65,1.5,2,2,0,0,1-1.42.57,2.07,2.07,0,0,1-1.42-3.58m.23,2.84a1.67,1.67,0,0,0,1.19.49,1.74,1.74,0,0,0,1.18-.47,1.91,1.91,0,0,0,.57-1.35,1.94,1.94,0,0,0-.57-1.35,1.74,1.74,0,0,0-1.18-.47,1.81,1.81,0,0,0-1.19.47,2,2,0,0,0-.56,1.36,1.85,1.85,0,0,0,.56,1.32m.43-2.39h.91a.86.86,0,0,1,.54.17.57.57,0,0,1,.15.41.53.53,0,0,1-.11.34.46.46,0,0,1-.24.17h0a.49.49,0,0,1,.19.1.46.46,0,0,1,.1.34v.26a.67.67,0,0,0,.08.28h-.34a.49.49,0,0,1-.07-.24v-.24a.5.5,0,0,0-.08-.28.45.45,0,0,0-.31-.1h-.49v.86h-.33Zm.33,1h.5a.5.5,0,0,0,.34-.11.41.41,0,0,0,.09-.26.31.31,0,0,0-.08-.23.49.49,0,0,0-.37-.12h-.48Z" style="fill: #231f20"/>
+  </g>
+</svg>

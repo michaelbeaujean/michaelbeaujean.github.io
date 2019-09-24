@@ -1,0 +1,314 @@
+// ***********************************
+// BASE
+// ***********************************
+
+
+@mixin global-styles {
+  // @include -zf-normalize;
+
+  // These styles are applied to a <meta> tag, which is read by the Foundation JavaScript
+  .foundation-mq {
+    font-family: '#{-zf-bp-serialize($breakpoints)}';
+  }
+
+  html {
+    box-sizing: border-box;
+    font-size: $global-font-size;
+  }
+
+  // Set box-sizing globally to handle padding and border widths
+  // *,
+  // *::before,
+  // *::after {
+  //   box-sizing: inherit;//border-box; 
+  // }
+
+  section.main-section {
+      *,
+      *::before,
+      *::after {
+        box-sizing: inherit;//border-box; 
+      }
+  }
+
+  // Default body styles
+  body {
+    // margin: 0;
+    // padding: 0;
+
+    // background: $body-background;
+
+    // font-family: $body-font-family;
+    // font-weight: $global-weight-normal;
+    // line-height: $global-lineheight;
+    // color: $body-font-color;
+    // -webkit-tap-highlight-color: rgba(0,0,0,0);
+    // overflow-x: hidden;
+  // overflow-y: scroll;
+  // -webkit-overflow-scrolling: none;
+
+    @if ($body-antialiased) {
+      // -webkit-font-smoothing: antialiased;
+      // -moz-osx-font-smoothing: grayscale;
+    }
+  }
+
+  #ico-content {
+    @if ($body-antialiased) {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+  }
+
+  section.main-section img {
+    // Get rid of gap under images by making them display: inline-block; by default
+    display: inline-block;
+    vertical-align: middle;
+
+    // Grid defaults to get images and embeds to work properly
+    max-width: 100%;
+    height: auto;
+    -ms-interpolation-mode: bicubic;
+  }
+
+  // Make sure textarea takes on height automatically
+  section.main-section textarea {
+    height: auto;
+    min-height: 50px;
+    border-radius: $global-radius;
+  }
+
+  // Make select elements are 100% width by default
+  section.main-section select {
+    width: 100%;
+    border-radius: $global-radius;
+  }
+
+  // Styles Google Maps and MapQuest embeds properly
+  // sass-lint:disable-line no-ids
+  section.main-section .map_canvas,
+  section.main-section .mqa-display {
+    img,
+    embed,
+    object {
+      max-width: none !important;
+    }
+  }
+
+  // Reset <button> styles created by most browsers
+  section.main-section button {
+    @include disable-mouse-outline;
+
+    padding: 0;
+
+    appearance: none;
+    border: 0;
+    border-radius: $global-radius;
+    background: transparent;
+
+    line-height: 1;
+  }
+
+  // Internal classes to show/hide elements in JavaScript
+  section.main-section .is-visible {
+    display: block !important;
+  }
+
+  section.main-section .is-hidden {
+    display: none !important;
+  }
+}
+
+/// Loads normalize.css.
+/// @access private
+// @mixin -zf-normalize {
+//   @include normalize();
+// }
+
+section.main-section .noMargin { margin: 0 !important; }
+
+section.main-section span {
+  white-space: normal;
+  @include breakpoint(xsmall up) { white-space: nowrap; }
+
+  &.force-wrap {
+    display: inline;
+    white-space: normal;
+    @include breakpoint(small up) { display: block; }
+  }
+
+  &.force-wrap-all {
+    display: block;
+  }
+}
+
+// @include foundation-flex-grid;
+
+/*
+.row { @include grid-row; }
+
+.column, .columns {
+  position: relative;
+  @include grid-column;
+
+  &.small-1 { @include grid-column(1); }
+  &.small-2 { @include grid-column(2); }
+  &.small-3 { @include grid-column(3); }
+  &.small-4 { @include grid-column(4); }
+  &.small-5 { @include grid-column(5); }
+  &.small-6 { @include grid-column(6); }
+  &.small-7 { @include grid-column(7); }
+  &.small-8 { @include grid-column(8); }
+  &.small-9 { @include grid-column(9); }
+  &.small-10 { @include grid-column(10); }
+  &.small-11 { @include grid-column(11); }
+  &.small-12 { @include grid-column(12); }
+
+  @include breakpoint(medium up) {
+    &.medium-1 { @include grid-column(1); }
+    &.medium-2 { @include grid-column(2); }
+    &.medium-3 { @include grid-column(3); }
+    &.medium-4 { @include grid-column(4); }
+    &.medium-5 { @include grid-column(5); }
+    &.medium-6 { @include grid-column(6); }
+    &.medium-7 { @include grid-column(7); }
+    &.medium-8 { @include grid-column(8); }
+    &.medium-9 { @include grid-column(9); }
+    &.medium-10 { @include grid-column(10); }
+    &.medium-11 { @include grid-column(11); }
+    &.medium-12 { @include grid-column(12); }
+  }
+
+  @include breakpoint(xxmedium up) {
+    &.xxmedium-1 { @include grid-column(1); }
+    &.xxmedium-2 { @include grid-column(2); }
+    &.xxmedium-3 { @include grid-column(3); }
+    &.xxmedium-4 { @include grid-column(4); }
+    &.xxmedium-5 { @include grid-column(5); }
+    &.xxmedium-6 { @include grid-column(6); }
+    &.xxmedium-7 { @include grid-column(7); }
+    &.xxmedium-8 { @include grid-column(8); }
+    &.xxmedium-9 { @include grid-column(9); }
+    &.xxmedium-10 { @include grid-column(10); }
+    &.xxmedium-11 { @include grid-column(11); }
+    &.xxmedium-12 { @include grid-column(12); }
+  }
+}
+*/
+
+section.main-section .clearfix {
+  @include clearfix();
+}
+
+section.main-section ::selection {
+  // background-image: none;
+  // background-color: rgba(0, 0, 0, 0.99);//$black;
+  // color: $kiwi;
+  background-color: rgba(35, 35, 35, 0.99);//$black;
+  color: $white;
+}
+section.main-section ::-moz-selection {
+  // background-image: none;
+  // background-color: rgba(0, 0, 0, 0.99);//$black;
+  // color: $kiwi;
+  background-color: rgba(35, 35, 35, 0.99);//$black;
+  color: $white;
+}
+
+
+
+.kiwi { color: $kiwi; }
+.light-kiwi { color: $light-kiwi; }
+.yellow { color: $yellow; }
+.light-yellow { color: $light-yellow; }
+.new-blue { color: $new-blue; }
+.light-blue { color: $light-blue; }
+.col-equities { color: $col-equities; }
+.col-fixedincome { color: $col-fixedincome; }
+.col-alternatives { color: $col-alternatives; }
+.col-multiasset { color: $col-multiasset; }
+.col-smartbeta { color: $col-smartbeta; }
+
+
+
+$spriteSVG: url("../images/sprite.svg");
+$spritePNG: url("../images/sprite.png");
+
+$mapSVG: url("../images/maps.svg");
+$mapPNG: url("../images/maps.png");
+
+%load-sprite {
+  display: inline-block;
+  background: $spritePNG;
+  background: $spriteSVG,
+    linear-gradient(transparent, transparent);
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+%load-map {
+  display: inline-block;
+  background: $mapPNG;
+  background: $mapSVG,
+    linear-gradient(transparent, transparent);
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+section.main-section a.default-btn {
+  position: relative;
+  display: inline-block;
+  background-color: transparent;//$black;
+  padding: rem-calc(15) rem-calc(40);
+  margin: 0;
+  margin-top: 1.75rem;
+  font-family: $helvetica;
+  font-weight: bold;
+  line-height: normal;
+  font-size: rem-calc(14);
+  letter-spacing: -0.1pt;
+  text-transform: uppercase;
+  text-align: center;
+  -webkit-appearance: none;
+  border-radius: 2px;
+  border: 1px solid $white;
+  cursor: pointer;
+
+  transition: all .15s;
+}
+
+section.main-section a.default-btn, section.main-section a.default-btn:hover,
+section.main-section a.default-btn:focus, section.main-section a.default-btn:visited {
+  color: $white;
+  text-decoration: none;
+}
+
+section.main-section a.default-btn:active {
+  background-color: $white;
+  color: $black;
+}
+
+.noTouch {
+  section.main-section a.default-btn:hover {
+    background-color: $white;
+    color: $black;
+  }
+}
+
+section.main-section .desktop-only {
+  display: none;
+
+  @include breakpoint(medium up) {
+    display: inline;
+  }
+}
+
+
+// Only affects medium screens and smaller
+// @include breakpoint(medium down) { display: none; }
+// Only affects medium screens, not small or large
+// @include breakpoint(medium only) { display: block; }
