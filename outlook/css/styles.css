@@ -390,6 +390,7 @@ section.main-section a, section.main-section a:visited {
 }
 
 section.main-section .column {
+  position: relative;
   margin: 0 auto;
   max-width: -moz-calc(100% - 60px);
   max-width: calc(100% - 60px);
